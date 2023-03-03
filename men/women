@@ -1,0 +1,163 @@
+  <!---Category Slider Section-----------=============-->
+   <section class="author-archive">
+    <div class="container">
+      <h1>Our Categories</h1>
+      
+      <input type="radio" id="Slider" name="categories" value="Slider" checked>
+      <input type="radio" id="fullPage.js" name="categories" value="fullPage.js">
+  
+      <ol class="filters">
+       
+        <li>
+          <label for="Slider">Men</label>
+        </li>
+        <li>
+          <label for="fullPage.js">Women</label>
+        </li>
+      </ol>
+  
+      <ol class="posts">
+        
+    
+        <li class="post" data-category="jQuery CSS Slider">
+          <article>
+            <figure>
+              <a href="https://webdesign.tutsplus.com/tutorials/how-to-build-a-full-screen-responsive-carousel-slider-with-owljs--cms-31771?_ga=2.214527703.1129106392.1555690352-242901505.1471790948" target="_blank">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/pre-oo.png" alt="">
+              </a>
+              <figcaption>
+                <ol class="post-categories">
+                  <li>
+                    <a href="">jQuery</a>
+                  </li>
+                  <li>
+                    <a href="">CSS</a>
+                  </li>
+                  <li>
+                    <a href="">Slider</a>
+                  </li>
+                </ol>
+                <h2 class="post-title">
+                  <a href="https://webdesign.tutsplus.com/tutorials/how-to-build-a-full-screen-responsive-carousel-slider-with-owljs--cms-31771?_ga=2.214527703.1129106392.1555690352-242901505.1471790948" target="_blank">How to Build a Full-Screen Responsive Carousel Slider With Owl.js
+                  </a>
+                </h2>
+              </figcaption>
+            </figure>
+          </article>
+        </li>
+        <li class="post" data-category="jQuery CSS Slider">
+          <article>
+            <figure>
+              <a href="https://webdesign.tutsplus.com/tutorials/how-to-build-an-attractive-responsive-image-gallery-with-slickjs--cms-31355?_ga=2.245039813.1129106392.1555690352-242901505.1471790948" target="_blank">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/slick-pre.png" alt="">
+              </a>
+              <figcaption>
+                <ol class="post-categories">
+                  <li>
+                    <a href="">jQuery</a>
+                  </li>
+                  <li>
+                    <a href="">CSS</a>
+                  </li>
+                  <li>
+                    <a href="">Slider</a>
+                  </li>
+                </ol>
+                <h2 class="post-title">
+                  <a href="https://webdesign.tutsplus.com/tutorials/how-to-build-an-attractive-responsive-image-gallery-with-slickjs--cms-31355?_ga=2.245039813.1129106392.1555690352-242901505.1471790948" target="_blank">How to Build an Attractive Responsive Image Gallery With slick.js
+                  </a>
+                </h2>
+              </figcaption>
+            </figure>
+          </article>
+        </li>
+        <!-- <li class="post" data-category="CSS JavaScript">
+          <article>
+            <figure>
+              <a href="https://webdesign.tutsplus.com/tutorials/a-simple-javascript-technique-for-filling-star-ratings--cms-29450?_ga=2.239800003.1129106392.1555690352-242901505.1471790948" target="_blank">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/stars-pre.png" alt="">
+              </a>
+              <figcaption>
+                <ol class="post-categories">
+                  <li>
+                    <a href="">CSS</a>
+                  </li>
+                  <li>
+                    <a href="">JavaScript</a>
+                  </li>
+                </ol>
+                <h2 class="post-title">
+                  <a href="https://webdesign.tutsplus.com/tutorials/a-simple-javascript-technique-for-filling-star-ratings--cms-29450?_ga=2.239800003.1129106392.1555690352-242901505.1471790948" target="_blank">A Simple JavaScript Technique for Filling Star Ratings
+                  </a>
+                </h2>
+              </figcaption>
+            </figure>
+          </article>
+        </li> -->
+        <li class="post" data-category="jQuery fullPage.js">
+          <article>
+            <figure>
+              <a href="https://webdesign.tutsplus.com/tutorials/quick-tip-scroll-animations-with-fullpagejs-and-animatecss--cms-25235?_ga=2.245041733.1129106392.1555690352-242901505.1471790948" target="_blank">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/scroll-preview.jpg" alt="">
+              </a>
+              <figcaption>
+                <ol class="post-categories">
+                  <li>
+                    <a href="">jQuery</a>
+                  </li>
+                  <li>
+                    <a href="">fullPage.js</a>
+                  </li>
+                </ol>
+                <h2 class="post-title">
+                  <a href="https://webdesign.tutsplus.com/tutorials/quick-tip-scroll-animations-with-fullpagejs-and-animatecss--cms-25235?_ga=2.245041733.1129106392.1555690352-242901505.1471790948" target="_blank">Quick Tip: Scroll Animations With fullPage.js and Animate.css
+                  </a>
+                </h2>
+              </figcaption>
+            </figure>
+          </article>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="cardxyz">
+      
+    <div class="cardxyza slidercard">         
+      <div class="content">
+        <div class="img">
+          <img src="">
+        </div>
+        <div class="details">
+          <div class="name">Appolo Reef</div>
+        </div>
+      </div>     
+    </div>
+
+    <div class="cardxyza slidercard">         
+      <div class="content">
+        <div class="img">
+          <img src="">
+        </div>
+        <div class="details">
+          <div class="name">Appolo Reef</div>
+        </div>
+      </div>     
+    </div>
+
+    <div class="cardxyza slidercard">         
+      <div class="content">
+        <div class="img">
+          <img src="">
+        </div>
+        <div class="details">
+          <div class="name">Appolo Reef</div>
+        </div>
+      </div>     
+    </div>
+
+  </div>
