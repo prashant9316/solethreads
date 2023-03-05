@@ -58,3 +58,11 @@ $(document).ready(function(){
 
 
 // document.getElementById('logo-section').addEventListener('')
+
+
+// document.getElementById('button').addEventListener('click', (e) => {
+//     e.preventDefault();
+
+// })
+
+// onmousemove = function(e){console.log("mouse location:", e.clientX, e.clientY)}

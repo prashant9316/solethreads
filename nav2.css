@@ -1658,3 +1658,53 @@
 .list-unstyled li{
   border-radius: 2px;
 }
+
+@media screen and (min-width: 800px) {
+  .not-for-desktop{
+    display: none!important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main{
+    top: 100px!important;
+  }
+  .not-for-mobile{
+    display: none!important;
+  }
+  .main-title{
+    height: 0vh;
+  }
+  .breadcrumb{
+    margin-bottom: 7px!important;
+    padding-bottom: 0px!important;
+  }
+  .productView-title-mobile{
+      font-size: 20px;
+      font-weight: 700;
+      color: #02405F;
+      margin-bottom: 0;
+  }
+  .top-title{
+    margin-bottom: 40px;
+  }
+
+  .mobile-stars{
+    width: 40%;
+    margin: 0;
+  }
+  .mobile-money-price{
+    font-size: 11px;
+    font-weight: 700;
+    color: #4A4A4A!important;
+  }
+  .mobile-price-card{
+    width: 40%;
+    float: right;
+    padding: 0;
+    margin: 0;
+    position: block;
+    transform: translateY(-3vh);
+  }
+
+}
