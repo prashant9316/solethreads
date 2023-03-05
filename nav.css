@@ -114,10 +114,19 @@
     width: 100px;
    align-self: center;/*it's not stretch*/
   }
-  .line1, .line2, .line3{
-    width: 30px;
-    height: 4px;
-    margin: 5px;
+  .line1,  .line3{
+    width: 15px;
+    height: 3px;
+    margin: 3px;
+    background: #ffffff;
+    /*Effect of bars*/
+    transition: transform 2s ease, opacity 2s ease;/*transform and opacity property*/
+  
+  }
+  .line2{
+    width: 10px;
+    height: 3px;
+    margin: 3px;
     background: #ffffff;
     /*Effect of bars*/
     transition: transform 2s ease, opacity 2s ease;/*transform and opacity property*/
@@ -301,7 +310,7 @@
   @media screen and (max-width: 450px){
     
     .logo img{
-        width:60% !important;
+        width:40% !important;
       }
     
   }
@@ -358,8 +367,11 @@
     width: 100%;
     height: 100vh;
     
+    margin-top: -60px;
   }
   .slider-body{
+    /* background-color: red; */
+    padding-top: 0;
     display: flex;
     min-height: 70vh;
     width: 100%;
@@ -391,9 +403,19 @@
     
   }
 
+  .categoryheading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #02405F;
+    justify-content: center;
+}
+
 
   
   .categoryheading{
+    margin-top: 20px;
+    /* display: flex; */
     font-family: 'Bulldog';
     font-style: italic;
     font-weight: 800;
@@ -402,10 +424,8 @@
   
     text-align: center;
   
-    color: #676858;
+    /* color: #676858; */
     padding-top: 60px;
-    
-  
   }
   .text-behind{
     /* background: red; */
@@ -419,7 +439,7 @@
     font-weight: 800;
     font-style: italic;
     color: rgb(180, 178, 178);
-    opacity: 0.4;
+    opacity: 0.1;
   }
   .sliderCategory{
     width: 100%;
@@ -466,7 +486,7 @@
     width: 200%;
     transition: 1s;
     /* background: red; */
-    height: 80%;
+    height: 70vh;
   }
   #two:checked ~ .main-card{
     margin-left: -100%;
@@ -733,7 +753,7 @@
     font-weight: 800;
     font-style: italic;
     color: rgb(180, 178, 178);
-    opacity: 0.3;
+    opacity: 0.1;
   }
   
   .sneakers-slider .abcd, .lookbook-slider .efgh{
@@ -764,7 +784,7 @@
   }
   .slidercard .photo{
     width: 100%;
-    height: 80% !important;
+    height: 80%;
     background: rgb(255, 255, 255);
     display: flex;
     padding: auto;
@@ -775,7 +795,7 @@
   .slidercard .info{
     width: 100%;
     text-align: left;
-    height: 19% !important;
+    height: 19%;
     background: #EEEEEE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #02405F;
@@ -810,6 +830,7 @@
 
   .btn-group-section{
     height: 20%;
+    justify-content: space-evenly ;
     padding: 0 20px;
   }
 
@@ -823,7 +844,7 @@
 .xyz .slidercard{
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
   /* border: solid 1px black; */
-  height: 100% !important;
+  height: 100% ;
   padding: 0px; 
   margin: 0px 10px;
   box-shadow: 0px 0px 5px grey !important;
@@ -852,7 +873,7 @@
   
   
   .btn-shop-both{
-    width: 45vw;
+    width: 30vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
   }
@@ -866,6 +887,7 @@
     position: relative;
     width: 25vw;
     margin: auto;
+    /* margin-top: 10px; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     font-weight: lighter!important;
@@ -879,9 +901,6 @@
 
 
   @media screen and (max-width: 600px) {
-    .btn-shop-both{
-        
-    }
     .btn-shop-now{
       width: 50vw;
     }
@@ -1711,10 +1730,20 @@
   }
 
 
+  .cardsss .abcde .photo{
+    margin: auto;
+    text-align: center;
+    height: 500px !important;
+    padding: 0!important;
+  }
+
+
 
   .user-btn{
     display: none;
   }
+
+  
   .cardsss .abcde .slidercard h2{
     font-style: italic;
     font-weight: bolder;
@@ -1726,6 +1755,40 @@
     height: 350px !important;
     padding: 0!important;
     
+  }
+  .instaFeed{
+    height: 100vh;
+  }
+  .instaFeed .instapost .grid-wrapper{
+    --auto-grid-min-size: 40rem;
+    /* --auto-grid-max-size: 45rem; */
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+  }
+  .instaFeed .instapost .grid-wrapper li{
+    background-color: #ef4444;
+    /* background: url(./images/mobile-image.jpeg) ; */
+    color: #ffffff;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .subscribe-form__btn:hover{
+    background-color: #02405F;
+  }
+  .subscribe-form__btn:hover{
+    color: #02405F;
+    background-color: #fff;
   }
 
   @media only screen and (max-width: 800px) {
@@ -1756,7 +1819,7 @@
       background-color: #02405F;;
     }
     .btn .line2{
-      width: 20px;
+      /* width: 1px; */
       background-color: #02405F;;
     }
     .btn .line3{
@@ -1798,6 +1861,13 @@
     .topbar h1{
       font-size: 10px;
     }
+    .categoryheading{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 22px;
+      color: #02405F;
+      justify-content: center;
+    }
     .cardsss{
       height: 500px;
       margin-bottom: 0;
@@ -1814,6 +1884,7 @@
       height: 345px;
     }
     .cardsss .abcde .slidercard {
+      padding: 0 10px;
       height: 20px;
       display: absolute;
     }
@@ -1822,8 +1893,22 @@
       font-weight: bolder;
       font-size: 18px;
     }
+    .cardsss{
+    width: 50%;
+    /* height: 100%; */
+    /* background: rgb(13, 0, 255); */
+    padding: 0 5px;
+  }
+  .sliderCategory{
+    height: 50vh;
+  }
+  .slider-body{
+    margin-top: 0;
+    height: 90h;
+  }
+  
     .abcde .slidercard button {
-      font-size: 13px;
+      font-size: px;
       font-family: 'Bulldog'!important;
     }
     /* .nav-link {
@@ -1841,5 +1926,248 @@
     }
     .nav-links {
       padding-bottom: 200px;
+      padding-top: 35px;
+    }
+
+    .cardsss .slick-list{padding:0 20% 0 0 !important;}
+
+    
+    .text-behind h2{
+      text-size-adjust: inherit;
+    }
+
+  
+
+    .top-sneaker-section .top-sneaker-buttons{
+      height: 50px;
+    }
+
+    .sneakers-section .sneakers-slider {
+      margin-top: -50px;
+    }
+
+    .btn-shop-both{
+      height: 23px;
+      width: 120px;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 5px 0px;
+    }
+
+
+
+    .take-it-up-1{
+      transform: translateY(-10%);
+    }
+
+    .take-it-up-2{
+      transform: translateY(-20%);
+    }
+
+    .take-it-up-3{
+      transform: translateY(-30%);
+    }
+
+    .take-it-up-4{
+      transform: translateY(-40%);
+    }
+
+
+    .flips-flops-section{
+      height: 60vh;
+    }
+    
+    
+
+    .flips-flops-section .sneakers-slider .xyz {
+      margin-top: -80px;
+      height: 30vh;
+    }
+    
+    .flips-flops-section .sneakers-heading{
+      transform: translateY(-30px);
+    }
+    .flips-flops-section .sneakers-slider{
+      margin-top:0px;
+      height: 30vh;
+    }
+    .flips-flops-section .sneakers-slider .slidercard{
+      height: 22vh;
+    }
+    .flips-flops-section .sneakers-slider .xyz .photo{
+      height: 15vh;
+    } 
+    .flips-flops-section .sneakers-slider .xyz .product-desc{
+      height: 7vh;
+      
+      text-align: center;
+    }
+    .flips-flops-section .sneakers-slider .xyz .product-desc > h2{
+      overflow: hidden;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    
+    
+
+
+
+   
+    .womens-flips-flops-section .sneakers-slider .xyz {
+      margin-top: -80px;
+      height: 30vh;
+    }
+    .womens-flips-flops-section .sneakers-heading{
+      transform: translateY(-10%);
+    }
+    .womens-flips-flops-section .sneakers-slider{
+      margin-top: -80px;
+      height: 30vh;
+    }
+    .womens-flips-flops-section{
+      height: 70vh;
+    }
+    .instaFeed {
+      transform: translateY(-70%);
+      height: 50vh!important;
+    }
+    .instaFeed .instaHead h1{
+      font-size: 18px!important;
+    }
+    .instaFeed .instapost {
+      padding: 2rem 1rem;
+    }
+    .instaFeed .instapost{
+      height: 50vh;
+    }
+    .instaFeed .instapost .grid-wrapper{
+      --auto-grid-min-size: 8rem;
+    }
+
+    .subscribe-container{
+      transform: translateY(-45%);
+    }
+    
+    .footer-logo-div{
+      padding-top: 34px;
+      position: relative;
+      height: 10vh;
+    }
+    .footerLogo {
+      width: 108px;
+      height: 21px;
+      position: relative;
+      left: -35%;
+      top: 60%;
+      z-index: 21;
+    }
+    .not-for-mobile{
+      display: none;
+    }
+    .footer-top{
+      height: 60vh;
+    }
+    .footer-content-wrapper{
+      margin-top: 34px;
+    }
+    .footer-content-wrapper h2{
+      color: #fff;
+      width: 100%;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .footer-content-wrapper a{
+      color: #fff;
+      font-size: 11px;
+      font-weight: 400;
+    }
+    .footer-content-wrapper a:hover{
+      color: #fff;
+    }
+    .footer-content-wrapper li{
+      color: #fff;
+      font-size: 11px;
+      font-weight: 400;
+    }
+    .footer-left-column {
+      margin-left: 35px;
+      width: 35%;
+    }
+    .footer-right-column{
+      transform: translateY(-10px);
+      width: 50%;
+      padding-left: 0!important;
+      margin-left: 0;
+    }
+    .list-social__item{
+      background-color: none;
+    }
+    .line-footer{
+      border-bottom: 1px solid white;
+      height: 0;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .footer-icon{
+      width: 35px;
+      height: 20px;
+      padding: 2px; 
+    }
+    .footer-payment-icons ul > li {
+      display: inline-block;
+    }
+  }
+
+  @media screen and (min-width: 801px) {
+    .not-for-desktop{
+      display: none;
+    }
+    
+  }
+
+  .footer-col {
+    display: inline-block;
+    padding: 0.5em 0.1em 0.5em 1em;
+    box-sizing: border-box;
+    /* border-right: solid 1px #bbb; */
+  }
+  .footer-col:nth-child(4) {
+    border: none;
+  }
+  
+  .ta-l {
+    text-align: left;
+  }
+  .flt {
+    float: left;
+  }
+  
+  .flt:nth-child(4):after {
+     content: " "; 
+     visibility: hidden; 
+     display: block; 
+     height: 1em; 
+     clear: both;
+  }
+  
+  
+  .footer-col a {
+    display: block;
+    margin: 0.3em 0;
+  }
+  
+  @media (max-width: 550px) {
+    
+    .footer-col:nth-child(2) {
+      border: none;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .tiny-100 {
+      width: 100%;
+    }
+    .footer-col { 
+      border: none;
     }
   }

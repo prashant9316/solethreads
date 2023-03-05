@@ -57,10 +57,4 @@ $(document).ready(function(){
 
 
 
-window.addEventListener("resize", reportWindowSize);
-
-const reportWindowSize = () => {
-    console.log("Event listening to change in window")
-    console.log(window.innerWidth)
-}
 // document.getElementById('logo-section').addEventListener('')
