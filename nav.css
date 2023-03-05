@@ -5,6 +5,12 @@
     font-family: 'Poppins',sans-serif;
   
   }
+  @media screen and (min-width: 801px) {
+    .not-for-desktop{
+      display: none!important;
+    }
+  }
+
   body{
     font-family: 'Montserrat', sans-serif;
     background: #ecebeb;
@@ -253,6 +259,10 @@
         justify-content: flex-start;
         flex-wrap: wrap;
         /*align-self: center;*/
+    }
+    .nav-links .menNav>a:hover{
+      color: black;
+      background-color: white;
     }
     .nav-links li{
         flex: 1 0 auto;
@@ -1923,7 +1933,39 @@
 
     .nav-links li {
       border-bottom: 1px solid #000;
+      
     }
+    .nav-links .nav-dropdown:focus, .nav-dropdown:hover{
+      height: 250px;
+    }
+
+    .dropdownMen li{
+      float: none;
+      width: 100vw;
+      height: 50px!important;
+      border: none!important;
+      justify-content: left!important;
+      padding-left: 28px;
+      /* align-items: start!important; */
+  }
+  .menNav>a:hover {
+    border-bottom: 1px black solid;
+  }
+  .dropdownMen li img{
+    width: 60px!important;
+    height: 25px!important;
+
+}
+  .dropdownMen li > a {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .mendropdownContainer{
+    width: 100vw!important;
+  } 
+
+   
     .nav-links {
       padding-bottom: 200px;
       padding-top: 35px;
@@ -1936,7 +1978,10 @@
       text-size-adjust: inherit;
     }
 
-  
+
+
+    
+
 
     .top-sneaker-section .top-sneaker-buttons{
       height: 50px;
@@ -2062,7 +2107,7 @@
       z-index: 21;
     }
     .not-for-mobile{
-      display: none;
+      display: none!important;
     }
     .footer-top{
       height: 60vh;
@@ -2117,11 +2162,10 @@
       display: inline-block;
     }
   }
+ 
 
   @media screen and (min-width: 801px) {
-    .not-for-desktop{
-      display: none;
-    }
+    
     
   }
 
