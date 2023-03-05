@@ -2073,7 +2073,7 @@
       height: 70vh;
     }
     .instaFeed {
-      transform: translateY(-70%);
+      /* transform: translateY(-70%); */
       height: 50vh!important;
     }
     .instaFeed .instaHead h1{
@@ -2090,7 +2090,7 @@
     }
 
     .subscribe-container{
-      transform: translateY(-45%);
+      /* transform: translateY(-45%); */
     }
     
     .footer-logo-div{
