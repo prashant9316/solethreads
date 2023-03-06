@@ -1801,6 +1801,10 @@
     background-color: #fff;
   }
 
+  .product-photo{
+    background-color: #fff;
+  }
+
   @media only screen and (max-width: 800px) {
     .nav-container{
       background-color: #fff;
