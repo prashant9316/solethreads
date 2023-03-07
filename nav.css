@@ -9,7 +9,33 @@
     .not-for-desktop{
       display: none!important;
     }
+
+    /* .sneakerProduct {
+      transform: translateY(5vh);
+      z-index: -100;
+    } */
+
+    /* .sneakerProduct .sneakers-heading {
+      transform: translateY(-5vh);
+      z-index: -100;
+      height: 20vh;
+    } */
+    .sneakers-heading {
+      height: 20vh;
+    }
+    .women {
+      /* height: 60vh; */
+      margin-top: 150px;
+    }
+    .instaHead, .instaFeed {
+      margin-top: 50px;
+    }
+    
+    .down-1{
+      transform: translateY(10vh);
+    }
   }
+
 
   body{
     font-family: 'Montserrat', sans-serif;
@@ -427,7 +453,6 @@
     margin-top: 20px;
     /* display: flex; */
     font-family: 'Bulldog';
-    font-style: italic;
     font-weight: 800;
     font-size: 45px;
     line-height: 49px;
@@ -544,6 +569,12 @@
     /* background: rgb(215, 37, 215); */
     
   }
+  .cardsss .abcde .slidercard .photo {
+    margin-bottom: 10px;
+  }
+  .cardsss .abcde .slidercard .photo > h2 {
+    font-family: 'Bulldog';
+  }
   /* .extra{
     width: 65%;
     height: 100%;
@@ -582,8 +613,10 @@
     /* background: red; */
     /* padding: 0px 50px !important; */
     width: 100%;
-    border-radius: 0.5vw;
+    border-radius: 6px;
+    font-weight: 500;
     font-size: 25px;
+    font-family: 'Bulldog'!important;
   }
 
   
@@ -662,20 +695,26 @@
   }
   .button label{
     height: auto;
+    font-family: 'Bulldog';
     width: 45%;
     text-align: center;
     padding: 10px 10px;
     /* border-radius: 20px;
     background: #fff; */
-    border:1px solid black;
+    /* border:1px solid black;
     border-left-color: transparent;
     border-right-color: transparent;
-    border-top-color: transparent;
+    border-top-color: transparent; */
+    border-bottom: 1px solid #02405F;
     /* text-decoration: underline; */
-  
+    color: #02405F; 
+    font-size: 25px;
     margin: 0 4px;
     cursor: pointer;
     transition: all 0.5s ease;
+  }
+  .button label:focus {
+    border-bottom: 4px solid #02405f!important;
   }
   /* .button label.active{
     width: 35px;
@@ -722,7 +761,7 @@
   .sneakers-heading{
     width:100%;
     height: 30%;
-    margin-bottom: -5%;
+    /* margin-bottom: -5%; */
     /* background: white; */
     display: flex;
     align-items: center;
@@ -740,7 +779,7 @@
   
   
   
-  font-family: 'Bulldog';
+  font-family: 'Bulldog'!important;
   font-style: italic;
   font-weight: 700;
   font-size: 50px;
@@ -1755,7 +1794,6 @@
 
   
   .cardsss .abcde .slidercard h2{
-    font-style: italic;
     font-weight: bolder;
     font-size: 18px;
   }
@@ -1806,6 +1844,9 @@
   }
 
   @media only screen and (max-width: 800px) {
+    .categoryheading{
+      font-style: italic;
+    }
     .nav-container{
       background-color: #fff;
     }
@@ -1876,11 +1917,16 @@
       font-size: 10px;
     }
     .categoryheading{
+      font-family: 'Bulldog';
       font-weight: 500;
-      font-size: 20px;
+      font-style: none;
+      font-size: 45px;
       line-height: 22px;
       color: #02405F;
       justify-content: center;
+    }
+    .sliderCategory .container {
+      transform: translateY(-10%);
     }
     .cardsss{
       height: 500px;

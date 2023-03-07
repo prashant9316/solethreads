@@ -144,9 +144,9 @@
                         
                                 
                     </div>
-                    <div class="productView halo-productView ">
+                    <div class="productView halo-productView">
                         <div class="page-content productView-information" id="ProductContent">
-                            <div class="halo-productView-left productView-images">
+                            <div class="halo-productView-left productView-images not-for-mobile">
                                 <div class="productView-images-wrapper">
                                     <div class="productView-nav productView-nav-gallery" data-arrow="false">
                                         <div class="productView-image">
@@ -202,6 +202,33 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="not-for-desktop product-page-slick">
+                                <div class="product-image-main"><img src="./images/product-page-pngs/image1.png" alt=""></div>
+                                <div class="product-image-main"><img src="./images/product-page-pngs/image2.png" alt=""></div>
+                                <div class="product-image-main"><img src="./images/product-page-pngs/image3.png" alt=""></div>
+                                <div class="product-image-main"><img src="./images/product-page-pngs/image4.png" alt=""></div>
+                                <div class="product-image-main"><img src="./images/product-page-pngs/image1.png" alt=""></div>
+                                <div class="product-image-main"><img src="./images/product-page-pngs/image.png" alt=""></div>
+                            </div>
+                            <style>
+                                .product-image-slick{
+                                    
+                                   padding-left: 10px;
+                                }
+                                .product-page-slick > div {
+                                    max-width: 95vw;
+                                    margin-left: 12px;;
+                                    padding: 0;
+                                    display: block;
+                                           
+                                }
+                                .product-page-slick .product-image-main > img {
+                                    width: 90vw!important;
+                                    padding: 0px!important;
+                                    border: 0.25px solid #5A5A5A;
+                                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                                }
+                            </style>
                             <div class="halo-productView-right productView-details">
                                 <h2 class="productView-title not-for-mobile"
                                     style="font-size: 50px; color: #02405F;line-height: 50px; font-weight: 600;">
@@ -1006,7 +1033,9 @@
                                     display: block;
                                 }
                                 .pro-desc{
+                                    /* background-color: #EEEEEE; */
                                     padding: 0;
+                                    
                                 }
                                 .pro-desc > h2{
                                     font-size: 15px;
@@ -1036,6 +1065,7 @@
                                 box-shadow: none!important;
                                 height: 100% !important;
                                 padding: 0 15px; 
+                                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))!important;
                                 /* margin: 0px 10px; */
                                 /* box-shadow: 0px 0px 5px grey !important; */
                                 }
@@ -1459,6 +1489,16 @@
                             }
                         }]
                 });
+
+                $('.product-page-slick').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    arrows: false,
+                    slidesToShow: 1,
+                    adaptiveHeight: true
+                });
+                
             });
             $(document).ready(function () {
             $('.xyz').slick({
