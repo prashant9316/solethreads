@@ -988,7 +988,7 @@
   
   .lookbook-heading{
     width:100%;
-    height: 100vh;
+    height: 90vh;
     /* background: green; */
     display: flex;
     align-items: center;
@@ -1844,8 +1844,25 @@
   }
 
   @media only screen and (max-width: 800px) {
+    .sliderCategory .slider-body{
+      height: 50vh;
+    }
     .categoryheading{
       font-style: italic;
+      font-size: 20px!important;
+    }
+    .button label {
+      font-size: 14px!important;
+    }
+    .lookbook-section {
+      height: 80vh!important;
+      margin-bottom: 60px;
+    }
+    .second-lookbook-section {
+      margin-bottom: 90px;
+    }
+    .mens {
+      margin-bottom: 40px;
     }
     .nav-container{
       background-color: #fff;
@@ -1853,6 +1870,7 @@
     .img-logo{
       width: 117px;
       height: 32px;
+      transform: translateX(5vw);
     }
     header{
       background: url(./images/mobile-image.jpeg) center/cover fixed no-repeat;
