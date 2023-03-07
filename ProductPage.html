@@ -337,8 +337,8 @@
                                             <span class="text">L</span>
                                         </label>
                                     </div>
-                                    <div class="wrap-collabsible"><input id="collapsible" class="toggle"
-                                            type="checkbox"> <label for="collapsible" class="lbl-toggle"
+                                    <div class="wrap-collabsible"><input id="collapsible" class="toggle "
+                                            type="checkbox"> <label for="collapsible" class="lbl-toggle offer"
                                             style="background-color: #02405F;">OFFER 1</label>
                                         <div class="collapsible-content">
                                             <div class="content-inner" style="background-color: white;">
@@ -349,7 +349,7 @@
 
 
                                     <div class="wrap-collabsible"><input id="collapsible-2" class="toggle"
-                                            type="checkbox"> <label for="collapsible-2" class="lbl-toggle"
+                                            type="checkbox"> <label for="collapsible-2" class="lbl-toggle offer"
                                             style="background-color: #02405F;">OFFER 2</label>
                                         <div class="collapsible-content">
                                             <div class="content-inner" style="background-color: white;">
@@ -378,9 +378,15 @@
                                             padding: 1rem;
                                             color: #DDD;
                                             background: #0069ff;
+                                            
+                                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                            border-radius: 3px;
                                             cursor: pointer;
-                                            border-radius: 0px;
                                             transition: all 0.25s ease-out;
+                                        }
+
+                                        .offer {
+                                            background: #032536!important;
                                         }
 
                                         .lbl-toggle:hover {
@@ -414,8 +420,8 @@
                                         }
 
                                         .toggle:checked+.lbl-toggle {
-                                            border-bottom-right-radius: 0;
-                                            border-bottom-left-radius: 0;
+                                            /* border-bottom-right-radius: 0;
+                                            border-bottom-left-radius: 0; */
                                         }
 
                                         .collapsible-content .content-inner {
@@ -452,27 +458,54 @@
                                         }
                                     </script>
 
-                                    <div class="previewCartAction">
+                                    <div class="previewCartAction" style="width: 100%">
                                         <div class="previewCartGroup">
                                             <form method="post" action="/cart/add" id="product-form-6617631490138"
                                                 accept-charset="UTF-8" class="form" enctype="multipart/form-data"
                                                 novalidate="novalidate" data-type="add-to-cart-form">
-                                                <input type="hidden" name="form_type" value="product">
+                                                <!-- <input type="hidden" name="form_type" value="product">
                                                 <input type="hidden" name="utf8" value="✓">
                                                 <div class="previewCartGroup-top">
                                                     <div class="productView-action" style="padding: 5px 0px;">
                                                     </div>
 
-                                                </div>
+                                                </div> -->
                                                 <div class="previewCartGroup-bottom">
-                                                    <button class="button button-2 button-checkout">Add to cart</button>
-                                                    <button class="button button-2 button-checkout"
-                                                        style="background-color: #02405F; color: white;">BUY
-                                                        NOW</button>
+                                                    <button class="button button-2 button-checkout" style="width: 25%;">Add to cart</button>
+                                                    <button class="button button-2 button-buynow" style="background-color: #02405F; color: white; width: 25%;">BUY NOW</button>
                                                     <style>
+                                                        .previewCartGroup-bottom {
+                                                            width: 90%;
+                                                            justify-content: space-evenly;
+                                                            align-items: center;
+                                                            display: flex;
+                                                        }
+                                                        .previewCartGroup-bottom .button-2 {
+                                                            border-radius: 3px;
+                                                            margin: 0!important;
+                                                            padding: 5px 0px!important;
+                                                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                                        }
+
+                                                        .previewCartGroup-bottom .button-checkout{
+                                                            color: #02405F;
+                                                            /* color: white; */
+                                                        }
+
+                                                        .previewCartGroup-bottom .button-checkout:hover{
+                                                            background-color: #02405F;
+                                                            color: white;
+                                                        }
+
+                                                        .previewCartGroup-bottom .button-buynow:hover{
+                                                            background-color: white!important;
+                                                            color: #02405F!important;
+                                                        }
+                           
                                                         .button-2:hover {
                                                             background-color: white;
                                                             color: #02405F;
+                                                            width: 45%;
                                                         }
                                                     </style>
 

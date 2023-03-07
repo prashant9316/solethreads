@@ -121,11 +121,11 @@ const swiper2 = new Swiper('.swiper2', {
             spaceBetween: 10
         },
         768: {
-            slidesPerView: 4,
+            slidesPerView: 6,
             spaceBetween: 10
         },
         1024: {
-            slidesPerView: 4,
+            slidesPerView: 6,
             spaceBetween: 20
         }
     },

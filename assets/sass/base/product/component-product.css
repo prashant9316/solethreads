@@ -617,7 +617,7 @@
 }
 
 .productView-information .previewCartAction .previewCartGroup .previewCartGroup-top .productView-action {
-  width: 100%;
+  width: 45%;
 }
 
 .productView-information .previewCartAction .previewCartGroup .previewCartGroup-top .productView-action .button {
@@ -668,6 +668,7 @@
 
 .productView-information .previewCartAction .previewCartGroup-bottom .button {
   padding: 14px 15px;
+  border-width: 45%;
 }
 
 .productView-information .share-button__fallback {
