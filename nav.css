@@ -433,10 +433,21 @@
     
   }
   .abcde .slidercard{
-    width: 100%;
+    width: 90%;
     /* height: 100%; */
     /* background: purple; */
     
+  }
+  .slidercard-right{
+    margin-left: 20px;
+  }
+
+  .slidercard-left{
+
+    margin-right: 20px; 
+  }
+
+  .slidercard-mid{
   }
 
   .categoryheading {
@@ -491,6 +502,7 @@
     position: relative;
     
   }
+  
   .slider-body::before{
     content: '';
     position: absolute;
@@ -551,7 +563,7 @@
     
   } */
   .cardsss{
-    width: 50%;
+    width: 100%;
     /* height: 100%; */
     /* background: rgb(13, 0, 255); */
     padding: 0 5px;
@@ -686,58 +698,39 @@
     border-color: #FF676D;
   } */
    .container .button{
-    width: 76%;
+    width: 90vw;
     display: flex;
     justify-content: space-around;
     margin: auto;
     /* background: red; */
     padding: 10px 0px;
+    padding-bottom: 20px;
   }
   .button label{
-    height: auto;
+    padding-bottom: 20px;
     font-family: 'Bulldog';
     width: 45%;
     text-align: center;
-    padding: 10px 10px;
-    /* border-radius: 20px;
-    background: #fff; */
-    /* border:1px solid black;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-top-color: transparent; */
     border-bottom: 1px solid #02405F;
-    /* text-decoration: underline; */
     color: #02405F; 
     font-size: 25px;
     margin: 0 4px;
     cursor: pointer;
     transition: all 0.5s ease;
   }
-  .button label:focus {
-    border-bottom: 4px solid #02405f!important;
+  
+  .button .active {
+    border-bottom: 4px solid #02405f;
   }
-  /* .button label.active{
-    width: 35px;
-  }
-  #one:checked ~ .button .one{
-    width: 35px;
-  }
-  #one:checked ~ .button .two{
-    width: 15px;
-  }
-  #two:checked ~ .button .one{
-    width: 15px;
-  }
-  #two:checked ~ .button .two{
-    width: 35px;
-  } */
+  
+  
   input[type="radio"]{
     display: none;
   }
   @media (max-width: 768px) {
     .main-card .cardsss .abcde{
       margin: 20px 0 10px 0;
-      width: calc(100% / 2 - 10px);
+      /* width: calc(100% / 2 - 10px); */
     }
   }
   @media (max-width: 600px) {
@@ -833,7 +826,7 @@
   }
   .slidercard .photo{
     width: 100%;
-    height: 80%;
+    height: 100%;
     background: rgb(255, 255, 255);
     display: flex;
     padding: auto;
@@ -1793,16 +1786,35 @@
   }
 
   
-  .cardsss .abcde .slidercard h2{
-    font-weight: bolder;
-    font-size: 18px;
-  }
+  
   .cardsss .abcde .photo{
     margin: auto;
     text-align: center;
-    height: 350px !important;
+    display: inline-block;
+    height: 400px !important;
     padding: 0!important;
+  }
+
+  .cardsss .abcde .photo>div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 85%; 
+    width: 100%;
+  }
+  .cardsss .abcde .photo img {
+    height: 90%;
+    width: 100%;
     
+  }
+  .cardsss .abcde .slidercard h2{
+    font-weight: bolder;
+    font-size: 35px;
+    align-items: end;
+    position: relative;
+    bottom: 0;
+    /* background: red; */
+    z-index: 100;
   }
   .instaFeed{
     height: 100vh;
@@ -1961,18 +1973,18 @@
     .main-card{
       height: 345px;
     }
-    .cardsss .abcde .slidercard {
+    /* .cardsss .abcde .slidercard {
       padding: 0 10px;
       height: 20px;
       display: absolute;
-    }
+    } */
     .cardsss .abcde .slidercard h2{
       font-style: italic;
       font-weight: bolder;
       font-size: 18px;
     }
     .cardsss{
-    width: 50%;
+    width: 100%;
     /* height: 100%; */
     /* background: rgb(13, 0, 255); */
     padding: 0 5px;
@@ -1986,7 +1998,7 @@
   }
   
     .abcde .slidercard button {
-      font-size: px;
+      /* font-size: px; */
       font-family: 'Bulldog'!important;
     }
     /* .nav-link {

@@ -46,23 +46,21 @@
             font-family: 'Bulldog';
             src: url("./Bulldog\ Bold.otf") format("opentype");
         }
-        body{
+
+        body {
             font-family: 'Bulldog';
         }
-
     </style>
     <style>
-
-        
-        
-        .dropdownMen{
+        .dropdownMen {
             list-style-type: none;
             background: rgb(255, 255, 255);
             text-align: left;
-            
-            display:none;
+
+            display: none;
         }
-        .dropdownMen li{
+
+        .dropdownMen li {
             float: none;
             width: 100%;
             height: 5vw;
@@ -70,34 +68,40 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
-           
+
             margin: 0px 0px !important;
         }
-        .dropdownMen li a{
+
+        .dropdownMen li a {
             color: black;
             font-weight: 800 !important;
         }
-        .dropdownMen li a:hover{
+
+        .dropdownMen li a:hover {
             color: black;
-            
+
         }
-        .dropdownMen li img{
+
+        .dropdownMen li img {
             width: 8vw;
         }
-        .menNav:hover ul{
-            
+
+        .menNav:hover ul {
+
             display: block;
         }
-        .mendropdownContainer{
+
+        .mendropdownContainer {
             width: 300px;
             height: auto;
             float: left;
             position: absolute;
         }
-        .viewall{
+
+        .viewall {
             width: 100%;
             height: 3vw !important;
-            display:flex !important;
+            display: flex !important;
             flex-direction: row;
             align-items: center;
             justify-content: space-between !important;
@@ -105,18 +109,19 @@
             padding-right: 30px;
             background: #023A56;
         }
-        .viewall a{
+
+        .viewall a {
             color: white !important;
             font-weight: bold !important;
         }
-        .arrowicon{
+
+        .arrowicon {
             width: 2vw !important;
         }
-        .lastSpace{
+
+        .lastSpace {
             display: none !important;
         }
-
-        
     </style>
 </head>
 
@@ -124,13 +129,16 @@
 <body>
     <div class="wrapper">
         <div class="topbar">
-            <div style="position: fixed; top: 0; width: 100%; height: 4vh; z-index: 12; background-color: #fff; padding: auto;">
+            <div
+                style="position: fixed; top: 0; width: 100%; height: 4vh; z-index: 12; background-color: #fff; padding: auto;">
                 <!-- <marquee direction="left" scrollamount="14" class="">
                 </marquee> -->
-                <h1 class="primary-color" style=" font-size: 15px; text-align: center; padding-top: 0.5vh; margin: 0; display: block;">GET UPTO 50% OFF ON FLIP FLOPS <a href="">SHOP NOW</a> </h1>
+                <h1 class="primary-color"
+                    style=" font-size: 15px; text-align: center; padding-top: 0.5vh; margin: 0; display: block;">GET
+                    UPTO 50% OFF ON FLIP FLOPS <a href="">SHOP NOW</a> </h1>
             </div>
         </div>
-        <header >
+        <header>
             <nav>
                 <div class="nav-container" id="logo-section">
                     <div class="btn">
@@ -148,13 +156,12 @@
                     </div> -->
                     <div class="user-btns btn">
                         <ul style="padding-top: 0px;">
+                            <li><a href="" class="icon-nav"><span id="nav-icon-btn" class="fa fa-user"></span></a></li>
                             <li><a href="" class="icon-nav"><span id="nav-icon-btn"
-                                        class="fa fa-user"></span></a></li>
-                            <li><a href="" class="icon-nav"><span id="nav-icon-btn"
-                                            class="fa fa-shopping-cart"></span></a></li>
-                            <li><a href="" class="icon-nav"><span id="nav-icon-btn"
-                                        class="fa fa-search"></span></a></li>
-                            
+                                        class="fa fa-shopping-cart"></span></a></li>
+                            <li><a href="" class="icon-nav"><span id="nav-icon-btn" class="fa fa-search"></span></a>
+                            </li>
+
                         </ul>
                     </div>
                     <!-- <div class="btn">
@@ -165,13 +172,13 @@
                 </div>
                 <!--For links-->
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="" class="nav-link">Sneakers</a></li>
+                    <li><a href="/sneakerLanding.html" class="nav-link">Sneakers</a></li>
                     <li class="menNav nav-dropdown">
                         <a href="#" class="dropbtn">Men <i class="fa fa-angle-down"></i></a>
                         <div class="mendropdownContainer">
                             <ul class="dropdownMen">
                                 <li>
-                                    <a href="" class="not-for-mobile">Sneakers</a>
+                                    <a href="/ProductPage.html" class="not-for-mobile">Sneakers</a>
                                     <img src="menuicon1.png">
                                     <a href="" class="not-for-desktop">Sneakers</a>
                                 </li>
@@ -190,7 +197,7 @@
                                     <img src="arrowicon.png" class="arrowicon">
                                 </li>
                                 <li class="lastSpace not-for-mobile"></li>
-                            
+
                             </ul>
                         </div>
                     </li>
@@ -218,7 +225,7 @@
                                     <img src="arrowicon.png" class="arrowicon">
                                 </li>
                                 <li class="lastSpace not-for-mobile"></li>
-                            
+
                             </ul>
                         </div>
                     </li>
@@ -244,142 +251,186 @@
 
             </div>
         </header>
-        
+
 
         <main class="main">
-           
+
             <div class="sliderCategory" style="height: 100vh;">
                 <!-- <div class="text-behind"><h1>OUR CATEGORIES</h1></div> -->
                 <h1 class="categoryheading" style="height: 5vh;">OUR CATEGORIES</h1>
-               
-               <div class="slider-body">
-              
-               <div class="container">
-                <input type="radio" name="dot" id="one">
-                <input type="radio" name="dot" id="two">
-                <div class="button">
-                  <label for="one" class="active one">FOR MEN</label>
-                  <label for="two" class="two">FOR WOMEN</label>
-                </div>
-                <div class="main-card">
-                  <div class="cardsss">
-                    <div class="abcde">
-                      <div class="slidercard">
-                        <div class="photo">
-                            <img src="./images/Categories/men1.jpeg" style="max-width: 100%; margin: 0; align-items: center;justify-content: center; display: block;" alt="" srcset="">
-                            <h2 style="display: block; padding: 10px; margin: 0px; " class="primary-color">SNEAKERS</h2>
+
+                <div class="slider-body">
+
+                    <div class="container">
+                        <input type="radio" name="dot" id="one">
+                        <input type="radio" name="dot" id="two">
+                        <div class="button">
+                            <label for="one" id="for-men-button" class="active one button-category">FOR MEN</label>
+                            <label for="two" id="for-women-button" class="two button-category">FOR WOMEN</label>
                         </div>
-                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now" style="display: block; padding: 0; margin: auto; font-weight: lighter;" >SHOP NOW</button>     
-                        </div>
-                      <div class="slidercard">
-                        <div class="photo">
-                            <img src="./images/Categories/men2.jpeg" style="max-width: 100%; margin: 0; align-items: center;justify-content: center; display: block;" alt="" srcset="">
-                            <h2 style="display: block; padding: 10px; margin: 0px;" class="primary-color">SLIDES</h2>
-                        </div>
-                            <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now" style="display: block; padding: 0; margin: auto; font-weight: lighter;" >SHOP NOW</button>     
-                        </div>
-                        <div class="slidercard"> 
-                            <div class="photo">
-                                <img src="./images/Categories/men3.jpeg" style="max-width: 100%; margin: 0; align-items: center;justify-content: center; display: block;" alt="" srcset="">
-                                <h2 style="display: block; padding: 10px; margin: 0px;" class="primary-color">FLIP&nbsp;FLOPS</h2>
+                        <script>
+                            console.log(document.getElementById('for-men-category').value)
+                            document.getElementById('for-men-category').onmouseout =() => {
+                                console.log("for men button clicked")
+                                document.getElementById('for-men-category').classList.add("active");
+                                document.getElementById('for-women-category').classList.remove("active");
+                            }
+                            document.getElementById('for-women-category').addEventListener('click', () => {
+                                document.getElementById('for-women-category').classList.add("active");
+                                document.getElementById('for-men-category').classList.remove("active");
+                            })
+                        </script>
+                        <div class="main-card">
+                            <div class="cardsss">
+                                <div class="abcde">
+                                    <div class="slidercard slidercard-left">
+                                        <div class="photo">
+                                            <div class="img" style="background-image: url(./images/Categories/men1.jpeg);"></div>
+                                            <h2 style="display: block; padding: 10px; margin: 0px;"
+                                                class="primary-color">SNEAKERS</h2>
+                                        </div>
+                                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now"
+                                            style="display: block; padding: 0; margin: auto; font-weight: lighter;">SHOP
+                                            NOW</button>
+                                    </div>
+                                    <div class="slidercard">
+                                        <div class="photo">
+                                            <div class="img" style="background-image: url(./images/Categories/men2.jpeg);"></div>
+                                            <!-- <img src="./images/Categories/men2.jpeg"
+                                                style="max-width: 100%; margin: 0; align-items: center;justify-content: center; display: block;"
+                                                alt="" srcset=""> -->
+                                            <h2 style="display: block; padding: 10px; margin: 0px;"
+                                                class="primary-color">SLIDES</h2>
+                                        </div>
+                                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now"
+                                            style="display: block; padding: 0; margin: auto; font-weight: lighter;">SHOP
+                                            NOW</button>
+                                    </div>
+                                    <div class="slidercard  slidercard-right">
+                                        <div class="photo">
+                                            <div class="img" style="background-image: url(./images/Categories/men3.jpeg);"></div>
+                                            <!-- <img src="./images/Categories/men3.jpeg"
+                                                style="max-width: 100%; margin: 0; align-items: center;justify-content: center; display: block;"alt="" srcset=""> -->
+                                            <h2 style="display: block; padding: 10px; margin: 0px;"
+                                                class="primary-color">FLIP&nbsp;FLOPS</h2>
+                                        </div>
+                                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now"
+                                            style="display: block; padding: 0; margin: auto; font-weight: lighter;">SHOP
+                                            NOW</button>
+                                    </div>
+                                </div>
                             </div>
-                            <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now" style="display: block; padding: 0; margin: auto; font-weight: lighter;" >SHOP NOW</button>     
+
+                            <div class="cardsss">
+                                <div class="abcde">
+                                    <div class="slidercard  slidercard-left">
+                                        <div class="photo">
+                                            <div class="img" style="background-image: url(./images/Categories/women1.jpeg);"></div>
+                                            <!-- <img src="./images/Categories/women1.jpeg"
+                                                style="max-width: 100%; margin: 0;" alt="" srcset=""> -->
+
+                                            <h2 style="display: block; padding: 10px; margin: 0px;"
+                                                class="primary-color">SNEAKERS</h2>
+                                        </div>
+                                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now"
+                                            style="display: block; padding: 0; margin: auto; font-weight: lighter;">SHOP
+                                            NOW</button>
+                                    </div>
+                                    <div class="slidercard">
+                                        <div class="photo">
+                                            <div class="img" style="background-image: url(./images/Categories/women2.jpeg);"></div>
+                                            <!-- <img src="./images/Categories/women2.jpeg"
+                                                style="max-width: 100%; margin: 0;" alt="" srcset=""> -->
+                                            <h2 style="display: block; padding: 10px; margin: 0px;"
+                                                class="primary-color">SLIDES</h2>
+                                        </div>
+                                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now"
+                                            style="display: block; padding: 0; margin: auto; font-weight: lighter;">SHOP
+                                            NOW</button>
+                                    </div>
+                                    <div class="slidercard  slidercard-right">
+                                        <div class="photo">
+                                            <div class="img" style="background-image: url(./images/Categories/women3.jpeg);"></div>
+                                            <!-- <img src="./images/Categories/women3.jpeg"
+                                                style="max-width: 100%; margin: 0;" alt="" srcset=""> -->
+                                            <h2 style="display: block; padding: 10px; margin: 0px;"
+                                                class="primary-color">FLIP&nbsp;FLOPS</h2>
+                                        </div>
+                                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now"
+                                            style="display: block; padding: 0; margin: auto; font-weight: lighter!important;">SHOP
+                                            NOW</button>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
                     </div>
-              
-                    <div class="cardsss">
-                        <div class="abcde">
-                          <div class="slidercard">
-                            <div class="photo">
-                
-                                    <img src="./images/Categories/women1.jpeg" style="max-width: 100%; margin: 0;" alt="" srcset="">
-                                
-                                <h2 style="display: block; padding: 10px; margin: 0px;" class="primary-color">SNEAKERS</h2>
-                            </div>
-                             <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now" style="display: block; padding: 0; margin: auto; font-weight: lighter;" >SHOP NOW</button>     
-                            </div>
-                          <div class="slidercard">
-                            <div class="photo">
-                                <img src="./images/Categories/women2.jpeg" style="max-width: 100%; margin: 0;" alt="" srcset="">
-                                <h2 style="display: block; padding: 10px; margin: 0px;" class="primary-color">SLIDES</h2>
-                            </div>
-                             <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now" style="display: block; padding: 0; margin: auto; font-weight: lighter;" >SHOP NOW</button>     
-                            </div>
-                          <div class="slidercard"> 
-                            <div class="photo">
-                                <img src="./images/Categories/women3.jpeg" style="max-width: 100%; margin: 0;" alt="" srcset="">
-                                <h2 style="display: block; padding: 10px; margin: 0px;" class="primary-color">FLIP&nbsp;FLOPS</h2>
-                            </div>
-                             <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now" style="display: block; padding: 0; margin: auto; font-weight: lighter!important;" >SHOP NOW</button>     
-                            </div>
-                        </div>
-                        </div>
-                 
+                    <style>
+                        .abcde {
+                            width: 90vw;
+                            margin: auto;
+                            display: block;
+                            padding: 0 5px;
+                        }
+
+                        .abcde .slidercard {
+                            max-height: 80vh;
+                        }
+
+                        .abcde .slidercard .photo {
+                            width: 100%;
+                            padding: 0 5px;
+                            /* max-height: 62vh; */
+                        }
+
+                        .abcde .slidercard .photo img {
+                            width: 70%;
+                            margin: auto;
+                            display: block;
+                            max-height: 40vh;
+                        }
+
+                        .abcde .slidercard .photo .title h2 {
+                            display: block;
+                            padding: 10px 10px;
+                        }
+                    </style>
                 </div>
-              </div>
-              <style>
-                .abcde{
-                    width: 80vw;
-                    margin: auto;
+            </div>
+
+            <style>
+                .slick-slide {
+                    color: white;
+                    padding: 20px 0;
+                    font-size: 30px;
+                    font-family: "Bulldog";
+                    text-align: center;
+
+                }
+
+                .img {
+                    display: inline-block;
+                }
+
+                .slick-prev:before,
+                .slick-next:before {
+                    color: black;
+                }
+
+                .slick-dots li {
+                    width: auto;
+                }
+
+                .pager__item {
+                    padding: 0 12px;
                     display: block;
-                    padding: 0 5px;
+                    border: 1px solid red;
                 }
-                .abcde .slidercard {
-                    max-height: 80vh;
+
+                .slick-dots {
+                    bottom: -40px;
                 }
-                .abcde .slidercard .photo{
-                    width: 100%;
-                    padding: 0 5px;
-                    /* max-height: 62vh; */
-                }  
-                .abcde .slidercard .photo img{
-                    width: 70%;
-                    margin: auto;
-                    display: block;
-                    max-height: 40vh;
-                }
-                .abcde .slidercard .photo .title h2 {
-                    display: block;
-                    padding: 10px 10px;
-                }
-              </style>
-              </div>
-              </div>
-
-                           <style>
-                    .slick-slide {
-                        color: white;
-                        padding: 20px 0;
-                        font-size: 30px;
-                        font-family: "Bulldog";
-                        text-align: center;
-
-                    }
-
-                    .img {
-                        display: inline-block;
-                    }
-
-                    .slick-prev:before,
-                    .slick-next:before {
-                        color: black;
-                    }
-
-                    .slick-dots li {
-                        width: auto;
-                    }
-
-                    .pager__item {
-                        padding: 0 12px;
-                        display: block;
-                        border: 1px solid red;
-                    }
-
-                    .slick-dots {
-                        bottom: -40px;
-                    }
-                </style>
+            </style>
             </section>
 
 
@@ -413,36 +464,41 @@
 
                 <style>
                     .lookbook-slider .efgh div .first-img {
-                            width: 100%;
-                            height: 100%;
-                            padding-right: 10px;
+                        width: 100%;
+                        height: 100%;
+                        padding-right: 10px;
+                        padding-left: 0px;
+                    }
+
+                    .lookbook-slider .efgh div .mid-img {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0px 5px;
+                    }
+
+                    .lookbook-slider .efgh div .last-img {
+                        width: 100%;
+                        height: 100%;
+                        padding-right: 0px;
+                        padding-left: 10px;
+                    }
+
+                    @media screen and (max-width: 600px) {
+                        .lookbook-slider .efgh div .first-img {
                             padding-left: 0px;
-                        }
-                        .lookbook-slider .efgh div .mid-img {
-                            width: 100%;
-                            height: 100%;
-                            padding: 0px 5px;
-                        }
-                        .lookbook-slider .efgh div .last-img {
-                            width: 100%;
-                            height: 100%;
                             padding-right: 0px;
-                            padding-left: 10px;
                         }
-                        @media screen and (max-width: 600px) {
-                            .lookbook-slider .efgh div .first-img {
-                                padding-left: 0px;
-                                padding-right: 0px;
-                            }
-                            .lookbook-slider .efgh div .mid-img{
-                                padding-left: 0px;
-                                padding-right: 0px;
-                            }
-                            .lookbook-slider .efgh div .last-img{
-                                padding-left: 0px;
-                                padding-right: 0px;
-                            }
+
+                        .lookbook-slider .efgh div .mid-img {
+                            padding-left: 0px;
+                            padding-right: 0px;
                         }
+
+                        .lookbook-slider .efgh div .last-img {
+                            padding-left: 0px;
+                            padding-right: 0px;
+                        }
+                    }
                 </style>
             </section>
 
@@ -538,65 +594,70 @@
                     <a href="#" class="btn-main__btn mini-btn mini-btn_black btn-shop-both">Shop Women</a>
                 </div>
                 <style>
-                    .sneakerProduct .sneakers-slider{
-                            padding-top: 30px;
-                            width: 80%;
-                            margin: auto;
-                            display: block;
-                        }
-                        .sneakerProduct .pro-desc{
-                            padding: 0;
-                            background: #EEEEEE;
-                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                            margin-bottom: 2px;
-                        }
-                        .sneakerProduct  .pro-desc > h2{
-                            font-size: 15px;
-                            color: #02405F;
-                            font-weight: 700;
-                            padding-bottom: 2px;
-                            padding-top: 8px;
-                            margin: 0;
-                        }
-                        .sneakerProduct  .pro-desc > p {
-                            color: #02405F;
-                            font-size: 12px;
-                            font-weight: 700;
-                            padding-top: 0!important;
-                            margin: 0;
-                        }
-                        .sneakerProduct  .product-photo{
-                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                            /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
-                            padding: 0px 0px;
-                            text-align: center;
-                            justify-content: center;
-                            border: solid 1px rgb(204, 204, 204);
-                            /* margin: 10px; */
-                            /* background-color: red; */
-                        }
-                       
-                        .sneakerProduct .xyz .slidercard{
+                    .sneakerProduct .sneakers-slider {
+                        padding-top: 30px;
+                        width: 80%;
+                        margin: auto;
+                        display: block;
+                    }
+
+                    .sneakerProduct .pro-desc {
+                        padding: 0;
+                        background: #EEEEEE;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        margin-bottom: 2px;
+                    }
+
+                    .sneakerProduct .pro-desc>h2 {
+                        font-size: 15px;
+                        color: #02405F;
+                        font-weight: 700;
+                        padding-bottom: 2px;
+                        padding-top: 8px;
+                        margin: 0;
+                    }
+
+                    .sneakerProduct .pro-desc>p {
+                        color: #02405F;
+                        font-size: 12px;
+                        font-weight: 700;
+                        padding-top: 0 !important;
+                        margin: 0;
+                    }
+
+                    .sneakerProduct .product-photo {
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                         /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
-                        box-shadow: none!important;
+                        padding: 0px 0px;
+                        text-align: center;
+                        justify-content: center;
+                        border: solid 1px rgb(204, 204, 204);
+                        /* margin: 10px; */
+                        /* background-color: red; */
+                    }
+
+                    .sneakerProduct .xyz .slidercard {
+                        /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
+                        box-shadow: none !important;
                         height: 100% !important;
-                        padding: 0 15px; 
+                        padding: 0 15px;
                         /* margin: 0px 10px; */
                         /* box-shadow: 0px 0px 5px grey !important; */
-                        }
-                        .sneakerProduct .sneakers-slider .xyz, .lookbook-slider .efgh{
-                            width: 100%;
-                            height: 100%;
-                            /* background: yellow; */
-                        }
+                    }
 
+                    .sneakerProduct .sneakers-slider .xyz,
+                    .lookbook-slider .efgh {
+                        width: 100%;
+                        height: 100%;
+                        /* background: yellow; */
+                    }
                 </style>
             </section>
-            
 
-            
 
-            
+
+
+
 
             <section class="lookbook-section second-lookbook-section down-1">
                 <div class="lookbook-heading">
@@ -628,36 +689,41 @@
 
                 <style>
                     .lookbook-slider .efgh div .first-img {
-                            width: 100%;
-                            height: 100%;
-                            padding-right: 10px;
+                        width: 100%;
+                        height: 100%;
+                        padding-right: 10px;
+                        padding-left: 0px;
+                    }
+
+                    .lookbook-slider .efgh div .mid-img {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0px 5px;
+                    }
+
+                    .lookbook-slider .efgh div .last-img {
+                        width: 100%;
+                        height: 100%;
+                        padding-right: 0px;
+                        padding-left: 10px;
+                    }
+
+                    @media screen and (max-width: 600px) {
+                        .lookbook-slider .efgh div .first-img {
                             padding-left: 0px;
-                        }
-                        .lookbook-slider .efgh div .mid-img {
-                            width: 100%;
-                            height: 100%;
-                            padding: 0px 5px;
-                        }
-                        .lookbook-slider .efgh div .last-img {
-                            width: 100%;
-                            height: 100%;
                             padding-right: 0px;
-                            padding-left: 10px;
                         }
-                        @media screen and (max-width: 600px) {
-                            .lookbook-slider .efgh div .first-img {
-                                padding-left: 0px;
-                                padding-right: 0px;
-                            }
-                            .lookbook-slider .efgh div .mid-img{
-                                padding-left: 0px;
-                                padding-right: 0px;
-                            }
-                            .lookbook-slider .efgh div .last-img{
-                                padding-left: 0px;
-                                padding-right: 0px;
-                            }
+
+                        .lookbook-slider .efgh div .mid-img {
+                            padding-left: 0px;
+                            padding-right: 0px;
                         }
+
+                        .lookbook-slider .efgh div .last-img {
+                            padding-left: 0px;
+                            padding-right: 0px;
+                        }
+                    }
                 </style>
             </section>
 
@@ -747,24 +813,27 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <style>
-                        .relatedProduct{
+                        .relatedProduct {
                             /* margin-top: 58px; */
                         }
-                        .relatedProduct .sneakers-slider{
+
+                        .relatedProduct .sneakers-slider {
                             padding-top: 30px;
                             width: 100%;
                             margin: auto;
                             display: block;
                         }
-                        .relatedProduct .pro-desc{
+
+                        .relatedProduct .pro-desc {
                             padding: 0;
                             background: #EEEEEE;
                             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                             margin-bottom: 2px;
                         }
-                        .relatedProduct  .pro-desc > h2{
+
+                        .relatedProduct .pro-desc>h2 {
                             font-size: 15px;
                             color: #02405F;
                             font-weight: 700;
@@ -772,14 +841,16 @@
                             padding-top: 8px;
                             margin: 0;
                         }
-                        .relatedProduct  .pro-desc > p {
+
+                        .relatedProduct .pro-desc>p {
                             color: #02405F;
                             font-size: 12px;
                             font-weight: 700;
-                            padding-top: 0!important;
+                            padding-top: 0 !important;
                             margin: 0;
                         }
-                        .relatedProduct  .product-photo{
+
+                        .relatedProduct .product-photo {
                             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                             /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
                             padding: 0px 0px;
@@ -789,21 +860,22 @@
                             /* margin: 10px; */
                             /* background-color: red; */
                         }
-                       
-                        .relatedProduct .xyz .slidercard{
-                        /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
-                        box-shadow: none!important;
-                        height: 100% !important;
-                        padding: 0 15px; 
-                        /* margin: 0px 10px; */
-                        /* box-shadow: 0px 0px 5px grey !important; */
+
+                        .relatedProduct .xyz .slidercard {
+                            /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
+                            box-shadow: none !important;
+                            height: 100% !important;
+                            padding: 0 15px;
+                            /* margin: 0px 10px; */
+                            /* box-shadow: 0px 0px 5px grey !important; */
                         }
-                        .relatedProduct .sneakers-slider .xyz, .lookbook-slider .efgh{
+
+                        .relatedProduct .sneakers-slider .xyz,
+                        .lookbook-slider .efgh {
                             width: 100%;
                             height: 100%;
                             /* background: yellow; */
                         }
-
                     </style>
                 </div>
                 <div class="btn-seasons btn-group-section" style="margin-top: 30px; ">
@@ -812,7 +884,7 @@
             </section>
 
 
-            <section class="relatedProduct women" >
+            <section class="relatedProduct women">
                 <div class="sneakers-heading">
                     <div class="text-behind sneak">
                         <h1>WOMEN'S</h1>
@@ -902,111 +974,111 @@
                     <a href="#" class="btn-main__btn mini-btn mini-btn_black btn-shop-single">SHOP ALL WOMEN</a>
                 </div>
             </section>
-            
-            
 
 
-            
-                <section class="instaFeed" style="background-color: #F8F8F8; margin: 0 10px">
-                    <div class="instaHead">
-                        <h1 style="font-size: 2.5vw; font-style: italic; padding-bottom: 20px;">Check Out Our Instagram
-                        </h1>
-                    </div>
-                    <div class="instapost">
-                        <ul class="grid-wrapper">
-                            <li>item 1</li>
-                            <li>item 2</li>
-                            <li>item 3</li>
-                            <li>item 4</li>
-                            <li>item 5</li>
-                            <li>item 6</li>	
-                        </ul>
-                    </div>
-                </section>
-                <style>
-                    /* .instaFeed {
+
+
+
+            <section class="instaFeed" style="background-color: #F8F8F8; margin: 0 10px">
+                <div class="instaHead">
+                    <h1 style="font-size: 2.5vw; font-style: italic; padding-bottom: 20px;">Check Out Our Instagram
+                    </h1>
+                </div>
+                <div class="instapost">
+                    <ul class="grid-wrapper">
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                        <li>item 4</li>
+                        <li>item 5</li>
+                        <li>item 6</li>
+                    </ul>
+                </div>
+            </section>
+            <style>
+                /* .instaFeed {
                         width: 100%;
                         height: 110vh;
                         background: grey; 
                     } */
 
-                    .instaHead {
-                        width: 100%;
-                        height: 10vh;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
+                .instaHead {
+                    width: 100%;
+                    height: 10vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 
-                        /* background: red; */
+                    /* background: red; */
+                }
+
+                .instapost {
+                    width: 100%;
+                    height: 90vh;
+                    /* background: yellow; */
+                }
+
+                .row1 {
+                    width: 100%;
+                    height: 45%;
+                    /* background: green; */
+                    margin: 20px 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+
+                .row2 {
+                    width: 100%;
+                    height: 45%;
+                    /* background: purple; */
+                    margin: 20px 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+
+                .instapost .post {
+                    height: 25vw;
+                    width: 25vw;
+                    padding-bottom: 10px;
+                    /* background: red; */
+                    margin: 10px 10px;
+                }
+
+                /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+                @media screen and (max-width: 600px) {
+
+                    .instaHead h1 {
+                        text-transform: uppercase;
+                        font-family: 'Bulldog';
+                        font-style: italic;
+                        font-weight: 700;
+                        font-size: 8vw;
+                        text-align: center;
+                        line-height: 54px;
+                        color: #407389;
                     }
+                }
+            </style>
 
-                    .instapost {
-                        width: 100%;
-                        height: 90vh;
-                        /* background: yellow; */
-                    }
-
-                    .row1 {
-                        width: 100%;
-                        height: 45%;
-                        /* background: green; */
-                        margin: 20px 0px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-evenly;
-                    }
-
-                    .row2 {
-                        width: 100%;
-                        height: 45%;
-                        /* background: purple; */
-                        margin: 20px 0px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-evenly;
-                    }
-
-                    .instapost .post {
-                        height: 25vw;
-                        width: 25vw;
-                        padding-bottom: 10px;
-                        /* background: red; */
-                        margin: 10px 10px;
-                    }
-
-                    /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-                    @media screen and (max-width: 600px) {
-
-                        .instaHead h1 {
-                            text-transform: uppercase;
-                            font-family: 'Bulldog';
-                            font-style: italic;
-                            font-weight: 700;
-                            font-size: 8vw;
-                            text-align: center;
-                            line-height: 54px;
-                            color: #407389;
-                        }
-                    }
-                </style>
-
-                <section class="subscribe-container" style="background-color: #F8F8F8; padding-top: 20px;">
-                    <div class="subscribe-title">
-                        <h3 class="subscribe-title__title" style="color: #02405F;">Join The Clan?</h3>
-                        <p class="subscribe-title__subtitle">Join our Solester community and get special offers,
-                            exclusive preview to latest drops & earn sole points on every purchase, referrals & a lot
-                            more.</p>
-                    </div>
-                    <form class="subscribe-form" action="#" method="get" name="subscribe-form">
-                        <input class="subscribe-form__input" type="email" placeholder="Enter Your Email Address">
-                        <button class="subscribe-form__btn" type="submit">SIGN
-                            up</button>
-                    </form>
-                    <div class="subscribe-note">
-                        <p class="subscribe-note__text">Note: You can opt-out at any time.<span><br></span> See our <a
-                                href="#">Privacy Policy</a> and <a href="#">Terms.</a></p>
-                    </div>
-                </section>
+            <section class="subscribe-container" style="background-color: #F8F8F8; padding-top: 20px;">
+                <div class="subscribe-title">
+                    <h3 class="subscribe-title__title" style="color: #02405F;">Join The Clan?</h3>
+                    <p class="subscribe-title__subtitle">Join our Solester community and get special offers,
+                        exclusive preview to latest drops & earn sole points on every purchase, referrals & a lot
+                        more.</p>
+                </div>
+                <form class="subscribe-form" action="#" method="get" name="subscribe-form">
+                    <input class="subscribe-form__input" type="email" placeholder="Enter Your Email Address">
+                    <button class="subscribe-form__btn" type="submit">SIGN
+                        up</button>
+                </form>
+                <div class="subscribe-note">
+                    <p class="subscribe-note__text">Note: You can opt-out at any time.<span><br></span> See our <a
+                            href="#">Privacy Policy</a> and <a href="#">Terms.</a></p>
+                </div>
+            </section>
         </main>
 
 
@@ -1020,7 +1092,7 @@
                             <img src="Logo Horizontal_white.png" width="80%" style="display: block; margin:auto;"
                                 class="footerLogo">
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div class="footer-content-wrapper">
                     <div class="footer-col large-25 small-50 tiny-100 ta-l flt footer-left-column">
@@ -1051,15 +1123,17 @@
                             <ul>
                                 <ul class="list-social clearfix">
                                     <li class="list-social__item">
-                                        <a href="https://www.instagram.com/"
-                                            class="link link--text list-social__link">
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M4.85 0.5H11.15C13.55 0.5 15.5 2.45 15.5 4.85V11.15C15.5 12.3037 15.0417 13.4101 14.2259 14.2259C13.4101 15.0417 12.3037 15.5 11.15 15.5H4.85C2.45 15.5 0.5 13.55 0.5 11.15V4.85C0.5 3.69631 0.958302 2.58987 1.77409 1.77409C2.58987 0.958302 3.69631 0.5 4.85 0.5ZM4.7 2C3.98392 2 3.29716 2.28446 2.79081 2.79081C2.28446 3.29716 2 3.98392 2 4.7V11.3C2 12.7925 3.2075 14 4.7 14H11.3C12.0161 14 12.7028 13.7155 13.2092 13.2092C13.7155 12.7028 14 12.0161 14 11.3V4.7C14 3.2075 12.7925 2 11.3 2H4.7ZM11.9375 3.125C12.1861 3.125 12.4246 3.22377 12.6004 3.39959C12.7762 3.5754 12.875 3.81386 12.875 4.0625C12.875 4.31114 12.7762 4.5496 12.6004 4.72541C12.4246 4.90123 12.1861 5 11.9375 5C11.6889 5 11.4504 4.90123 11.2746 4.72541C11.0988 4.5496 11 4.31114 11 4.0625C11 3.81386 11.0988 3.5754 11.2746 3.39959C11.4504 3.22377 11.6889 3.125 11.9375 3.125ZM8 4.25C8.99456 4.25 9.94839 4.64509 10.6517 5.34835C11.3549 6.05161 11.75 7.00544 11.75 8C11.75 8.99456 11.3549 9.94839 10.6517 10.6517C9.94839 11.3549 8.99456 11.75 8 11.75C7.00544 11.75 6.05161 11.3549 5.34835 10.6517C4.64509 9.94839 4.25 8.99456 4.25 8C4.25 7.00544 4.64509 6.05161 5.34835 5.34835C6.05161 4.64509 7.00544 4.25 8 4.25ZM8 5.75C7.40326 5.75 6.83097 5.98705 6.40901 6.40901C5.98705 6.83097 5.75 7.40326 5.75 8C5.75 8.59674 5.98705 9.16903 6.40901 9.59099C6.83097 10.0129 7.40326 10.25 8 10.25C8.59674 10.25 9.16903 10.0129 9.59099 9.59099C10.0129 9.16903 10.25 8.59674 10.25 8C10.25 7.40326 10.0129 6.83097 9.59099 6.40901C9.16903 5.98705 8.59674 5.75 8 5.75Z" fill="white"/>
-                                                </svg>
-                                                
+                                        <a href="https://www.instagram.com/" class="link link--text list-social__link">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.85 0.5H11.15C13.55 0.5 15.5 2.45 15.5 4.85V11.15C15.5 12.3037 15.0417 13.4101 14.2259 14.2259C13.4101 15.0417 12.3037 15.5 11.15 15.5H4.85C2.45 15.5 0.5 13.55 0.5 11.15V4.85C0.5 3.69631 0.958302 2.58987 1.77409 1.77409C2.58987 0.958302 3.69631 0.5 4.85 0.5ZM4.7 2C3.98392 2 3.29716 2.28446 2.79081 2.79081C2.28446 3.29716 2 3.98392 2 4.7V11.3C2 12.7925 3.2075 14 4.7 14H11.3C12.0161 14 12.7028 13.7155 13.2092 13.2092C13.7155 12.7028 14 12.0161 14 11.3V4.7C14 3.2075 12.7925 2 11.3 2H4.7ZM11.9375 3.125C12.1861 3.125 12.4246 3.22377 12.6004 3.39959C12.7762 3.5754 12.875 3.81386 12.875 4.0625C12.875 4.31114 12.7762 4.5496 12.6004 4.72541C12.4246 4.90123 12.1861 5 11.9375 5C11.6889 5 11.4504 4.90123 11.2746 4.72541C11.0988 4.5496 11 4.31114 11 4.0625C11 3.81386 11.0988 3.5754 11.2746 3.39959C11.4504 3.22377 11.6889 3.125 11.9375 3.125ZM8 4.25C8.99456 4.25 9.94839 4.64509 10.6517 5.34835C11.3549 6.05161 11.75 7.00544 11.75 8C11.75 8.99456 11.3549 9.94839 10.6517 10.6517C9.94839 11.3549 8.99456 11.75 8 11.75C7.00544 11.75 6.05161 11.3549 5.34835 10.6517C4.64509 9.94839 4.25 8.99456 4.25 8C4.25 7.00544 4.64509 6.05161 5.34835 5.34835C6.05161 4.64509 7.00544 4.25 8 4.25ZM8 5.75C7.40326 5.75 6.83097 5.98705 6.40901 6.40901C5.98705 6.83097 5.75 7.40326 5.75 8C5.75 8.59674 5.98705 9.16903 6.40901 9.59099C6.83097 10.0129 7.40326 10.25 8 10.25C8.59674 10.25 9.16903 10.0129 9.59099 9.59099C10.0129 9.16903 10.25 8.59674 10.25 8C10.25 7.40326 10.0129 6.83097 9.59099 6.40901C9.16903 5.98705 8.59674 5.75 8 5.75Z"
+                                                    fill="white" />
+                                            </svg>
+
                                         </a>
                                     </li>
-    
+
                                     <li class="list-social__item">
                                         <a href="#" class="link link--text list-social__link">
                                             <svg aria-hidden="true" focusable="false" role="presentation"
@@ -1072,7 +1146,7 @@
                                             <span class="visually-hidden">Facebook</span>
                                         </a>
                                     </li>
-    
+
                                     <li class="list-social__item">
                                         <a href="https://www.youtube.com/shopify"
                                             class="link link--text list-social__link">
@@ -1084,9 +1158,9 @@
                                             </svg>
                                         </a>
                                     </li>
-                            </ul>
+                                </ul>
                         </div>
-                        
+
                         <div class="halo-row-item footer-payment-icons">
                             <h2>Payments Partners</h2>
                             <ul>
@@ -1106,13 +1180,13 @@
                                     <img class="footer-icon" src="./images/footer-logos/f4.jpeg" alt="">
                                 </li>
                             </ul>
-                            
+
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
-            
+
         </footer>
         <footer class="footer footer-default not-for-mobile">
             <div class="footer-top ">
@@ -1442,34 +1516,34 @@
     <script src="nav.js"></script>
 
     <script>
-        $(document).ready(function() {
-  $('.card-slider').slick({
-    dots: false,
-    arrows: true,
-    slidesToShow: 4,
-    infinite: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2
-        }
-      }
-    ]
-  });
-});
+        $(document).ready(function () {
+            $('.card-slider').slick({
+                dots: false,
+                arrows: true,
+                slidesToShow: 4,
+                infinite: false,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ]
+            });
+        });
         $(document).ready(function () {
             $('.favorite-items').slick({
                 dots: true,
@@ -1508,44 +1582,45 @@
             });
         });
 
-        
-        $(document).ready(function(){
-            $('.abcde').slick({
-        dots: false,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        arrows:false,
-        prevArrow: '<button class="slick-prev" id="slick-prev"></button>',
-        nextArrow: '<button class="slick-next" id="slick-next"></button>',
 
-        responsive: [
-            {
-            breakpoint: 1024,
-            settings: {
+        $(document).ready(function () {
+            $('.abcde').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
                 slidesToShow: 3,
                 slidesToScroll: 3,
-                infinite: true,
-                dots: true
-            }
-            },
-            {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-            },
-            {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-            }
-        
-        ]});
+                arrows: false,
+                prevArrow: '<button class="slick-prev" id="slick-prev"></button>',
+                nextArrow: '<button class="slick-next" id="slick-next"></button>',
+
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                ]
+            });
         });
 
 
