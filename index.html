@@ -289,7 +289,7 @@
                                             <h2 style="display: block; padding: 10px; margin: 0px;"
                                                 class="primary-color">SNEAKERS</h2>
                                         </div>
-                                        <button class="btn-main__btn mini-btn mini-btn_black btn-shop-now"
+                                        <button class="mini-btn_black btn-shop-now"
                                             style="display: block; padding: 0; margin: auto; font-weight: lighter;">SHOP
                                             NOW</button>
                                     </div>
@@ -412,10 +412,10 @@
                     display: inline-block;
                 }
 
-                .slick-prev:before,
+                /* .slick-prev:before,
                 .slick-next:before {
                     color: black;
-                }
+                } */
 
                 .slick-dots li {
                     width: auto;
@@ -593,27 +593,56 @@
                     <a href="#" class="btn-main__btn mini-btn mini-btn_black btn-shop-both">Shop Men</a>
                     <a href="#" class="btn-main__btn mini-btn mini-btn_black btn-shop-both">Shop Women</a>
                 </div>
+                
                 <style>
+                    
                     .sneakerProduct .sneakers-slider {
                         padding-top: 30px;
-                        width: 80%;
+                        width: 95%;
                         margin: auto;
                         display: block;
                     }
+
+                    .sneakerProduct .sneakers-slider .slick-arrow.slick-prev {
+                        left: -1.2vw;
+                        height: auto;
+                        width: auto;
+                        display: none;
+                        border-radius: 0;
+                        border: none;
+                        opacity: 1;
+                        background: url("./images/arrows/left-arrow.png") 0
+                            0 / 100% no-repeat;
+                        background-size: contain;
+                    }
+                    .sneakerProduct .sneakers-slider .slick-arrow.slick-next {
+                        right: -45px;
+                        height: auto;
+                        width: auto;
+                        display: none;
+                        border-radius: 0;
+                        border: none;
+                        opacity: 1;
+                        background: url("./images/arrows/right-arrow.png") 0 0 / 100% no-repeat;
+                        background-size: contain;
+                    }
+                    
 
                     .sneakerProduct .pro-desc {
                         padding: 0;
                         background: #EEEEEE;
                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                         margin-bottom: 2px;
+                        text-align: left;
+                        padding-left: 23px;
                     }
 
                     .sneakerProduct .pro-desc>h2 {
                         font-size: 15px;
                         color: #02405F;
                         font-weight: 700;
-                        padding-bottom: 2px;
-                        padding-top: 8px;
+                        padding-bottom: 0px;
+                        padding-top: 13px;
                         margin: 0;
                     }
 
@@ -623,11 +652,10 @@
                         font-weight: 700;
                         padding-top: 0 !important;
                         margin: 0;
+                        padding-bottom: 19px;
                     }
 
                     .sneakerProduct .product-photo {
-                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                        /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
                         padding: 0px 0px;
                         text-align: center;
                         justify-content: center;
@@ -637,12 +665,9 @@
                     }
 
                     .sneakerProduct .xyz .slidercard {
-                        /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
-                        box-shadow: none !important;
+                        
                         height: 100% !important;
                         padding: 0 15px;
-                        /* margin: 0px 10px; */
-                        /* box-shadow: 0px 0px 5px grey !important; */
                     }
 
                     .sneakerProduct .sneakers-slider .xyz,
@@ -733,7 +758,7 @@
                     <div class="text-behind sneak">
                         <h1>MEN'S</h1>
                     </div>
-                    <h1>MENS FLIP FLOPS</h1>
+                    <h1>MEN FLIP FLOPS</h1>
                 </div>
                 <!-- <div class="relatedProductsHead">
                     <h1 style="color: #575757; font-size: 30px; font-weight: 700;">Related Products</h1>
@@ -815,15 +840,38 @@
                     </div>
 
                     <style>
-                        .relatedProduct {
-                            /* margin-top: 58px; */
-                        }
+                        
+                        
 
                         .relatedProduct .sneakers-slider {
                             padding-top: 30px;
-                            width: 100%;
+                            width: 95%;
                             margin: auto;
                             display: block;
+                        }
+
+                        .relatedProduct .sneakers-slider .slick-arrow.slick-prev {
+                            left: -1.2vw;
+                            height: auto;
+                            width: auto;
+                            display: none;
+                            border-radius: 0;
+                            border: none;
+                            opacity: 1;
+                            background: url("./images/arrows/double-left.png") 0
+                                0 / 100% no-repeat;
+                            background-size: contain;
+                        }
+                        .relatedProduct .sneakers-slider .slick-arrow.slick-next {
+                            right: -1.8vw;
+                            height: auto;
+                            width: auto;
+                            display: none;
+                            border-radius: 0;
+                            border: none;
+                            opacity: 1;
+                            background: url("./images/arrows/double-right.png") 0 0 / 100% no-repeat;
+                            background-size: contain;
                         }
 
                         .relatedProduct .pro-desc {
@@ -831,14 +879,16 @@
                             background: #EEEEEE;
                             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                             margin-bottom: 2px;
+                            text-align: left;
+                            padding-left: 23px;
                         }
 
                         .relatedProduct .pro-desc>h2 {
                             font-size: 15px;
                             color: #02405F;
                             font-weight: 700;
-                            padding-bottom: 2px;
-                            padding-top: 8px;
+                            padding-bottom: 0px;
+                            padding-top: 13px;
                             margin: 0;
                         }
 
@@ -848,8 +898,10 @@
                             font-weight: 700;
                             padding-top: 0 !important;
                             margin: 0;
+                            padding-bottom: 19px;
                         }
 
+                       
                         .relatedProduct .product-photo {
                             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                             /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
@@ -878,7 +930,7 @@
                         }
                     </style>
                 </div>
-                <div class="btn-seasons btn-group-section" style="margin-top: 30px; ">
+                <div class="btn-seasons btn-group-section" style="margin-top: 60px; ">
                     <a href="#" class="btn-main__btn mini-btn mini-btn_black btn-shop-single">SHOP ALL MEN</a>
                 </div>
             </section>
@@ -970,7 +1022,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="btn-seasons btn-group-section" style="margin-top: 30px; ">
+                <div class="btn-seasons btn-group-section" style="margin-top: 60px; ">
                     <a href="#" class="btn-main__btn mini-btn mini-btn_black btn-shop-single">SHOP ALL WOMEN</a>
                 </div>
             </section>

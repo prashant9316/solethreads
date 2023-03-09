@@ -483,7 +483,6 @@
   .text-behind h1{
     /* font-size: 80vw; */
     font-weight: 800;
-    font-style: italic;
     color: rgb(180, 178, 178);
     opacity: 0.1;
   }
@@ -622,12 +621,12 @@
   }
 
   .abcde .slidercard button{
-    /* background: red; */
-    /* padding: 0px 50px !important; */
     width: 100%;
     border-radius: 6px;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 15px!important;
+    height: 38px;
     font-family: 'Bulldog'!important;
   }
 
@@ -704,10 +703,10 @@
     margin: auto;
     /* background: red; */
     padding: 10px 0px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .button label{
-    padding-bottom: 20px;
+    padding-bottom: 23px;
     font-family: 'Bulldog';
     width: 45%;
     text-align: center;
@@ -773,7 +772,6 @@
   
   
   font-family: 'Bulldog'!important;
-  font-style: italic;
   font-weight: 700;
   font-size: 50px;
   line-height: 65px;
@@ -784,16 +782,14 @@
   }
   
   .sneakers-slider{
-    width: 85%;
     height: 50%;
     /* background: purple; */
     display: block;
     margin: auto;
   }
   .sneak h1{
-    font-size: 200px;
+    font-size: 270px;
     font-weight: 800;
-    font-style: italic;
     color: rgb(180, 178, 178);
     opacity: 0.1;
   }
@@ -812,7 +808,8 @@
       /* background: brown; */
   }
   .abcd .slidercard{
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
+    box-shadow: 4px 4px 7px #ababab;
     /* border: solid 1px black; */
     height: 100% !important;
     padding: 0px; 
@@ -915,21 +912,20 @@
   
   
   .btn-shop-both{
-    width: 30vw;
+    width: 33vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+    border-radius: 6px;
   }
   .btn-shop-single{
-    width: 45vw;
+    width: 18vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+    border-radius: 4px;
+    font-size: 21px;
   }
   
   .btn-shop-now {
     position: relative;
-    width: 25vw;
-    margin: auto;
-    /* margin-top: 10px; */
+    font-size: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     font-weight: lighter!important;
@@ -1053,7 +1049,6 @@
   
   .flipflopsmen-heading h1{
     font-family: 'Bulldog';
-    font-style: italic;
     font-weight: 700;
     font-size: 10px;
     line-height: 65px;
@@ -1731,14 +1726,14 @@
   .womenflipflopbutton button{
     margin-bottom: 30px;
   }
-  .slick-prev:before {
+  /* .slick-prev:before {
     color: rgb(0, 0, 0) !important;
     background-color: #eee;
   }
   .slick-next:before {
     color: rgb(0, 0, 0) !important;
     background-color: #eee;
-  }
+  } */
   footer{
     background: #02405F !important;
   }
@@ -1860,7 +1855,6 @@
       height: 50vh;
     }
     .categoryheading{
-      font-style: italic;
       font-size: 20px!important;
     }
     .button label {
@@ -1979,7 +1973,6 @@
       display: absolute;
     } */
     .cardsss .abcde .slidercard h2{
-      font-style: italic;
       font-weight: bolder;
       font-size: 18px;
     }
@@ -2051,7 +2044,7 @@
       padding-top: 35px;
     }
 
-    .cardsss .slick-list{padding:0 20% 0 0 !important;}
+    /* .cardsss .slick-list{padding:0 20% 0 0 !important;} */
 
     
     .text-behind h2{
