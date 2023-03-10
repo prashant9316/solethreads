@@ -1,12 +1,22 @@
+@font-face {
+  font-family: 'Retail Display Demo';
+  src: url("./RetailDisplayDemo-Regular.otf");
+}
+
+@font-face {
+  font-family: 'Retail Demo';
+  src: url("./RetailDemo-Regular.otf");
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
   
   }
   body{
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     background: #ecebeb;
     overflow-x: hidden;
   }
@@ -345,11 +355,58 @@
   }
 
 
+.productView-short-desc {
+  font-family: 'Retail Demo';
+}
 
 
+.halo-productView-left{
+  width: 70%!important;
+}
+
+.productView-nav{
+  padding: 20px!important;
+}
+
+.halo-productView-right{
+  width: 25%!important;
+  padding-left: 10px!important;
+  padding-top: 40px!important;
+}
 
 
+.product-form__inputs .product-form__label span {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  align-items: center;
+  padding: 7px;
+  display: block;
+}
+
+.wrap-collabsible .lbl-toggle {
+  text-align: left;
+  padding: 2px 5px;
+  padding-left: 8px!important;
+}
+
+.wrap-collabsible .lbl-toggle {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+}
   
+.wrap-collabsible .lbl-toggle >span {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  float: right;
+
+}
+
+.lbl-toggle {
+  font-family: 'Retail Display Demo';
+}
   
   /* Slider category */
   
@@ -1005,7 +1062,7 @@
     }
     .instaHead h1{
       text-transform: uppercase;
-      font-family: 'Bulldog';
+      font-family: 'Retail Display Demo';
       font-style: italic;
       font-weight: 700;
       font-size: 8vw;
@@ -1091,7 +1148,7 @@
   }
   .form-content p{
     padding: 10px 0px;
-    font-family: arial;
+    font-family: 'Retail Display Demo';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1171,7 +1228,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .ct-footer-pre span {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Retail Display Demo', 'Open Sans Condensed', sans-serif;
     color: #ebebeb;
     font-size: 30px;
   }
@@ -1212,7 +1269,7 @@
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   }
   .ct-footer-list > li .ct-footer-list-header {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Retail Display Demo', 'Open Sans Condensed', sans-serif;
     color: #ffffff;
     font-size: 20px;
     font-weight: bolder;
@@ -1278,7 +1335,7 @@
     text-decoration: underline;
   }
   .btn {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Retail Display Demo', 'Open Sans Condensed', sans-serif;
     border-radius: 0;
     border: none;
     text-transform: uppercase;
@@ -1351,13 +1408,13 @@
     background-attachment: fixed;
   }
   .ct-section_header--type1 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog', 'Open Sans Condensed', sans-serif;
     color: #000;
     font-size: 115px;
     text-transform: uppercase;
   }
   .ct-section_header--type2 small {
-    font-family: 'coquette', fantasy;
+    font-family: 'Bulldog', 'coquette', fantasy;
     font-size: 58px;
     line-height: .7;
     display: block;
@@ -1366,7 +1423,7 @@
     left: -12px;
   }
   .ct-section_header--type2 span {
-    font-family: 'Bebas Neue';
+    font-family: 'Bulldog', 'Bebas Neue';
     font-size: 115px;
     line-height: .8;
   }
@@ -1381,7 +1438,7 @@
     text-align: center;
   }
   .ct-section_header--type3 small {
-    font-family: 'coquette', fantasy;
+    font-family:  'Bulldog', 'coquette', fantasy;
     font-size: 50px;
     padding: 15px 0;
     font-weight: 700;
@@ -1393,7 +1450,7 @@
     display: block
   }
   .ct-section_header--type3 span {
-    font-family: 'Bebas Neue';
+    font-family: 'Bulldog', 'Bebas Neue';
     font-size: 150px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1411,14 +1468,14 @@
     clear: both
   }
   .ct-section_header--type4 small {
-    font-family: 'coquette', fantasy;
+    font-family: 'Bulldog', 'coquette', fantasy;
     font-size: 50px;
     color: inherit;
     font-weight: 700;
     display: block
   }
   .ct-section_header--type4 span {
-    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-family: 'Bulldog', 'nimbus-sans-condensed', sans-serif;
     font-weight: 400;
     font-weight: bold;
     font-size: 150px;
@@ -1433,7 +1490,7 @@
     text-align: center;
   }
   .ct-section_header--type4 + p {
-    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-family: 'Bulldog', 'nimbus-sans-condensed', sans-serif;
     font-weight: 400;
     font-size: 40px;
     font-weight: 700;
@@ -1606,7 +1663,7 @@
     color: white;
     background: #9EA1A1D6;
     letter-spacing: 5px;
-    font-family: Arial;
+    font-family: 'Retail Display Demo';
     
   }
   .womenflipflopbutton button{
