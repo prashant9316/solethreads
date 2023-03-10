@@ -14,16 +14,9 @@
       display: none!important;
     }
 
-    /* .sneakerProduct {
-      transform: translateY(5vh);
-      z-index: -100;
-    } */
+    
 
-    /* .sneakerProduct .sneakers-heading {
-      transform: translateY(-5vh);
-      z-index: -100;
-      height: 20vh;
-    } */
+    
     .sneakers-heading {
       height: 20vh;
     }
@@ -1105,7 +1098,6 @@
     .instaHead h1{
       text-transform: uppercase;
       font-family: 'Retail Display Demo';
-      font-style: italic;
       font-weight: 700;
       font-size: 3vw;
       line-height: 54px;
@@ -1124,13 +1116,23 @@
     .instaHead h1{
       text-transform: uppercase;
       font-family: 'Retail Display Demo';
-      font-style: italic;
       font-weight: 700;
       font-size: 8vw;
       text-align: center;
       line-height: 54px;
       color: #407389;
     }
+  }
+  .subscribe-form__btn {
+    width: auto;
+    padding: 22px;
+    background-color: #02405f!important;
+    font-size: 27px;
+    color: white;
+  }
+  .subscribe-form__btn:hover {
+    background-color: #fff!important;
+    color: #000;
   }
   
   /* instagram API */
@@ -1289,7 +1291,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .ct-footer-pre span {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     color: #ebebeb;
     font-size: 30px;
   }
@@ -1330,7 +1332,7 @@
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   }
   .ct-footer-list > li .ct-footer-list-header {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     color: #ffffff;
     font-size: 20px;
     font-weight: bolder;
@@ -1469,13 +1471,13 @@
     background-attachment: fixed;
   }
   .ct-section_header--type1 {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     color: #000;
     font-size: 115px;
     text-transform: uppercase;
   }
   .ct-section_header--type2 small {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     font-size: 58px;
     line-height: .7;
     display: block;
@@ -1484,7 +1486,7 @@
     left: -12px;
   }
   .ct-section_header--type2 span {
-    font-family: 'Bebas Neue';
+    font-family: 'Retail Display Demo';
     font-size: 115px;
     line-height: .8;
   }
@@ -1499,7 +1501,7 @@
     text-align: center;
   }
   .ct-section_header--type3 small {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     font-size: 50px;
     padding: 15px 0;
     font-weight: 700;
@@ -1511,7 +1513,7 @@
     display: block
   }
   .ct-section_header--type3 span {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     font-size: 150px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1536,7 +1538,7 @@
     display: block
   }
   .ct-section_header--type4 span {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     font-weight: 400;
     font-weight: bold;
     font-size: 150px;
@@ -1551,7 +1553,7 @@
     text-align: center;
   }
   .ct-section_header--type4 + p {
-    font-family: 'Bulldog';
+    font-family: 'Retail Display Demo';
     font-weight: 400;
     font-size: 40px;
     font-weight: 700;
@@ -1817,6 +1819,7 @@
   }
   .instaFeed{
     height: 100vh;
+    margin: 20px 0px;
   }
   .instaFeed .instapost .grid-wrapper{
     --auto-grid-min-size: 40rem;
@@ -1827,7 +1830,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- font-family: 'Montserrat', sans-serif;
+    font-family: 'Retail Display Demo', 'Montserrat', sans-serif;
   }
   .instaFeed .instapost .grid-wrapper li{
     background-color: #ef4444;
@@ -1854,186 +1857,207 @@
     background-color: #fff;
   }
 
-  @media only screen and (max-width: 800px) {
-    .sliderCategory .slider-body{
-      height: 50vh;
-    }
-    .categoryheading{
-      font-size: 20px!important;
-    }
-    .button label {
-      font-size: 14px!important;
-    }
-    .lookbook-section {
-      height: 80vh!important;
-      margin-bottom: 60px;
-    }
-    .second-lookbook-section {
-      margin-bottom: 90px;
-    }
-    .mens {
-      margin-bottom: 40px;
-    }
-    .nav-container{
-      background-color: #fff;
-    }
-    .img-logo{
-      width: 117px;
-      height: 32px;
-      transform: translateX(5vw);
-    }
-    header{
-      background: url(./images/mobile-image.jpeg) center/cover fixed no-repeat;
-      display: flex;
-      flex-direction: column;
-      margin-top: 0;
-      top: 0;
-    }
-    .logo{
-      padding: 0 2px;
-    }
-    .nav-container{
-      padding: 0;
-    }
-    .btn{
-      color: #02405F
-    }
-    .btn .line1{
-      background-color: #02405F;;
-    }
-    .btn .line2{
-      /* width: 1px; */
-      background-color: #02405F;;
-    }
-    .btn .line3{
-      background-color: #02405F;;
-    }
-    .user-btns{
-      padding-top: 2px;
-      display: block;
-      color: white;
-      display: flex;
-      width: 100px;
-      height: 2vh;
-    }
-    .user-btns ul li{
-      display: flex;
-      flex: 1 0;
-      text-align-last: center;
-      float: left;
-      padding: 0 2px;
-    }
-    .icon-nav{
-      display: block;
-      position: relative;
-      color: #02405F;
-      width: 100%;
-      padding: 2px;
-      width: auto;
-    }
-    .icon-nav a span {
-      width: 13px;
-      height: 13px;
-    }
-    .img-logo{
-      content: url(./images/logo-colored.jpeg);
-    }
-    .topbar{
-      height: 1vh;
-    }
-    .topbar h1{
-      font-family: 'Retail Display Demo';
-      font-size: 10px;
-    }
-    .categoryheading{
-      font-family: 'Retail Display Demo';
-      font-weight: 500;
-      font-style: none;
-      font-size: 45px;
-      line-height: 22px;
-      color: #02405F;
-      justify-content: center;
-    }
-    .sliderCategory .container {
-      transform: translateY(-10%);
-    }
-    .cardsss{
-      height: 500px;
-      margin-bottom: 0;
-      padding-bottom: 0;
-    }
-    .cardsss .abcde .photo{
-      margin: auto;
-      text-align: center;
-      height: 370px !important;
-      padding: 0!important;
-    }
+@media only screen and (max-width: 800px) {
+  .sliderCategory .slider-body{
+    height: 50vh;
+  }
   
-    .main-card{
-      height: 345px;
-    }
-    /* .cardsss .abcde .slidercard {
-      padding: 0 10px;
-      height: 20px;
-      display: absolute;
-    } */
-    .cardsss .abcde .slidercard h2{
-      font-weight: bolder;
-      font-size: 18px;
-    }
-    .cardsss{
+  .button {
+    padding-bottom: 20px!important;
+  }
+  .button label {
+    font-size: 14px!important;
+  }
+  .lookbook-section{
+    height: 80vh!important;
+  }
+
+  .lookbook-slider{
+    height: 80vh;
+  }
+  
+  .second-lookbook-section {
+    margin-bottom: 90px;
+  }
+  .mens {
+    margin-bottom: 40px;
+  }
+  .nav-container{
+    background-color: #fff;
+  }
+  .img-logo{
+    width: 117px;
+    height: 32px;
+    transform: translateX(5vw);
+  }
+  header{
+    background: url(./images/mobile-image.jpeg) center/cover fixed no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    top: 0;
+  }
+  .logo{
+    padding: 0 2px;
+  }
+  .nav-container{
+    padding: 0;
+  }
+  .btn{
+    color: #02405F
+  }
+  .btn .line1{
+    background-color: #02405F;;
+  }
+  .btn .line2{
+    background-color: #02405F;;
+  }
+  .btn .line3{
+    background-color: #02405F;;
+  }
+
+  .user-btns{
+    padding-top: 2px;
+    display: block;
+    color: white;
+    display: flex;
+    width: 100px;
+    height: 2vh;
+  }
+
+  .user-btns ul li{
+    display: flex;
+    flex: 1 0;
+    text-align-last: center;
+    float: left;
+    padding: 0 2px;
+  }
+  
+  .icon-nav{
+    display: block;
+    position: relative;
+    color: #02405F;
     width: 100%;
-    /* height: 100%; */
-    /* background: rgb(13, 0, 255); */
+    padding: 2px;
+    width: auto;
+  }
+
+  .icon-nav a span {
+    width: 13px;
+    height: 13px;
+  }
+
+  .img-logo{
+    content: url(./images/logo-colored.jpeg);
+  }
+
+  .topbar{
+    height: 1vh;
+  }
+
+  .topbar h1{
+    font-family: 'Retail Display Demo';
+    font-size: 10px;
+  }
+  
+  .categoryheading{
+    font-family: 'Retail Display Demo';
+    font-weight: 800;
+    font-style: none;
+    font-size: 20px!important;
+    line-height: 22px;
+    color: #02405F;
+    justify-content: center;
+  }
+
+  .sliderCategory .container {
+    transform: translateY(-10%);
+  }
+
+  .cardsss{  
+    width: 95vw!important;
+    height: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .cardsss .abcde .photo{
+    margin: auto;
+    text-align: center;
+    height: 370px !important;
+    padding: 0!important;
+  }
+
+  .main-card{
+    height: 345px;
+  }
+
+  .cardsss .abcde .slidercard h2{
+    font-weight: bolder;
+    font-size: 18px;
+  }
+
+  .cardsss{
+    width: 100%;
     padding: 0 5px;
   }
+
   .sliderCategory{
     height: 50vh;
   }
+  
   .slider-body{
     margin-top: 0;
     height: 90h;
   }
   
-    .abcde .slidercard button {
-      /* font-size: px; */
-      font-family: 'Retail Display Demo'!important;
-    }
-    /* .nav-link {
-      color: #02405F!important;
-    } */
-    .nav-links a {
-      color: #000!important;
-      font-weight: 200;
-      text-transform: uppercase;
-      font-size: 16px;
-    }
-
-    .nav-links li {
-      border-bottom: 1px solid #000;
-      
-    }
-    .nav-links .nav-dropdown:focus, .nav-dropdown:hover{
-      height: 250px;
-    }
-
-    .dropdownMen li{
-      float: none;
-      width: 100vw;
-      height: 50px!important;
-      border: none!important;
-      justify-content: left!important;
-      padding-left: 28px;
-      /* align-items: start!important; */
+  .slider-body .button {
+    margin-top: 40px;
   }
+
+  .button label{
+    padding-bottom: 10px!important; 
+    font-size: 25px;
+  }
+  
+  .abcde .slidercard button {
+    /* font-size: px; */
+    font-family: 'Retail Display Demo'!important;
+  }
+    
+  .nav-links a {
+    color: #000!important;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  .nav-links li {
+    border-bottom: 1px solid #000;
+    
+  }
+  .nav-links .nav-dropdown:focus, .nav-dropdown:hover{
+    height: 250px;
+  }
+
+  .dropdownMen li{
+    float: none;
+    width: 100vw;
+    height: 50px!important;
+    border: none!important;
+    justify-content: left!important;
+    padding-left: 28px;
+  }
+
   .menNav>a:hover {
     border-bottom: 1px black solid;
   }
+
   .dropdownMen li img{
     width: 60px!important;
     height: 25px!important;
+  }
 
-}
   .dropdownMen li > a {
     font-size: 13px;
     font-weight: 700;
@@ -2042,204 +2066,233 @@
   .mendropdownContainer{
     width: 100vw!important;
   } 
-
-   
-    .nav-links {
-      padding-bottom: 200px;
-      padding-top: 35px;
-    }
-
-    /* .cardsss .slick-list{padding:0 20% 0 0 !important;} */
-
-    
-    .text-behind h2{
-      text-size-adjust: inherit;
-    }
-
-
-
-    
-
-
-    .top-sneaker-section .top-sneaker-buttons{
-      height: 50px;
-    }
-
-    .sneakers-section .sneakers-slider {
-      margin-top: -50px;
-    }
-
-    .btn-shop-both{
-      height: 23px;
-      width: 120px;
-      font-size: 13px;
-      font-weight: 700;
-      padding: 5px 0px;
-    }
-
-
-
-    .take-it-up-1{
-      transform: translateY(-10%);
-    }
-
-    .take-it-up-2{
-      transform: translateY(-20%);
-    }
-
-    .take-it-up-3{
-      transform: translateY(-30%);
-    }
-
-    .take-it-up-4{
-      transform: translateY(-40%);
-    }
-
-
-    .flips-flops-section{
-      height: 60vh;
-    }
-    
-    
-
-    .flips-flops-section .sneakers-slider .xyz {
-      margin-top: -80px;
-      height: 30vh;
-    }
-    
-    .flips-flops-section .sneakers-heading{
-      transform: translateY(-30px);
-    }
-    .flips-flops-section .sneakers-slider{
-      margin-top:0px;
-      height: 30vh;
-    }
-    .flips-flops-section .sneakers-slider .slidercard{
-      height: 22vh;
-    }
-    .flips-flops-section .sneakers-slider .xyz .photo{
-      height: 15vh;
-    } 
-    .flips-flops-section .sneakers-slider .xyz .product-desc{
-      height: 7vh;
-      
-      text-align: center;
-    }
-    .flips-flops-section .sneakers-slider .xyz .product-desc > h2{
-      overflow: hidden;
-      font-size: 12px;
-      font-weight: 700;
-    }
-    
-    
-
-
-
-   
-    .womens-flips-flops-section .sneakers-slider .xyz {
-      margin-top: -80px;
-      height: 30vh;
-    }
-    .womens-flips-flops-section .sneakers-heading{
-      transform: translateY(-10%);
-    }
-    .womens-flips-flops-section .sneakers-slider{
-      margin-top: -80px;
-      height: 30vh;
-    }
-    .womens-flips-flops-section{
-      height: 70vh;
-    }
-    .instaFeed {
-      /* transform: translateY(-70%); */
-      height: 50vh!important;
-    }
-    .instaFeed .instaHead h1{
-      font-size: 18px!important;
-    }
-    .instaFeed .instapost {
-      padding: 2rem 1rem;
-    }
-    .instaFeed .instapost{
-      height: 50vh;
-    }
-    .instaFeed .instapost .grid-wrapper{
-      --auto-grid-min-size: 8rem;
-    }
-
-    .subscribe-container{
-      /* transform: translateY(-45%); */
-    }
-    
-    .footer-logo-div{
-      padding-top: 34px;
-      position: relative;
-      height: 10vh;
-    }
-    .footerLogo {
-      width: 108px;
-      height: 21px;
-      position: relative;
-      left: -35%;
-      top: 60%;
-      z-index: 21;
-    }
-    .not-for-mobile{
-      display: none!important;
-    }
-    .footer-top{
-      height: 60vh;
-    }
-    .footer-content-wrapper{
-      margin-top: 34px;
-    }
-    .footer-content-wrapper h2{
-      color: #fff;
-      width: 100%;
-      font-size: 11px;
-      font-weight: 700;
-    }
-    .footer-content-wrapper a{
-      color: #fff;
-      font-size: 11px;
-      font-weight: 400;
-    }
-    .footer-content-wrapper a:hover{
-      color: #fff;
-    }
-    .footer-content-wrapper li{
-      color: #fff;
-      font-size: 11px;
-      font-weight: 400;
-    }
-    .footer-left-column {
-      margin-left: 35px;
-      width: 35%;
-    }
-    .footer-right-column{
-      transform: translateY(-10px);
-      width: 50%;
-      padding-left: 0!important;
-      margin-left: 0;
-    }
-    .list-social__item{
-      background-color: none;
-    }
-    .line-footer{
-      border-bottom: 1px solid white;
-      height: 0;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    .footer-icon{
-      width: 35px;
-      height: 20px;
-      padding: 2px; 
-    }
-    .footer-payment-icons ul > li {
-      display: inline-block;
-    }
+ 
+  .nav-links {
+    padding-bottom: 200px;
+    padding-top: 35px;
   }
+
+  .cardsss .slick-list{padding:0 20% 0 0 !important;}
+
+  .text-behind h2{
+    text-size-adjust: inherit;
+  }
+
+  .top-sneaker-section .top-sneaker-buttons{
+    height: 50px;
+  }
+
+  .sneakers-section .sneakers-slider {
+    margin-top: -50px;
+  }
+
+  .btn-shop-both{
+    height: 23px;
+    width: 120px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 0px;
+  }
+  .sneakerProduct .pro-desc{
+    text-align: center!important;
+  }
+
+  .btn-group-section{
+    height: 20%;
+    /* justify-content: space-around ; */
+    padding: 0!important;
+    display: flex;
+  }
+  .relatedProduct .sneakers-slider{
+    margin-top: -40px!important;
+  }
+
+  .relatedProduct .xyz .slidercard {
+    margin: 0px 5px!important;
+    padding: 0!important;
+  }
+  
+  .btn-group-section{
+    margin-top: 30px!important;
+  }
+  .btn-shop-single{
+    width: 45vw!important;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0px 0px!important;
+  }
+
+  .sneakerProduct .sneakers-slider {
+    width: 80vw!important;
+    transform: translateY(-5vh);
+  }
+
+  .sneakerProduct .btn-group-section {
+    transform: translateY(-5vh);
+  }
+
+
+  .take-it-up-1{
+    transform: translateY(-10%);
+  }
+
+  .take-it-up-2{
+    transform: translateY(-20%);
+  }
+
+  .take-it-up-3{
+    transform: translateY(-30%);
+  }
+
+  .take-it-up-4{
+    transform: translateY(-40%);
+  }
+
+
+  .flips-flops-section{
+    height: 60vh;
+  }
+  
+  
+
+  .flips-flops-section .sneakers-slider .xyz {
+    margin-top: -80px;
+    height: 30vh;
+  }
+  
+  .flips-flops-section .sneakers-heading{
+    transform: translateY(-30px);
+  }
+  .flips-flops-section .sneakers-slider{
+    margin-top:0px;
+    height: 30vh;
+  }
+  .flips-flops-section .sneakers-slider .slidercard{
+    height: 22vh;
+  }
+  .flips-flops-section .sneakers-slider .xyz .photo{
+    height: 15vh;
+  } 
+  .flips-flops-section .sneakers-slider .xyz .product-desc{
+    height: 7vh;
+    
+    text-align: center;
+  }
+  .flips-flops-section .sneakers-slider .xyz .product-desc > h2{
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  
+
+
+
+  
+  .womens-flips-flops-section .sneakers-slider .xyz {
+    margin-top: -80px;
+    height: 30vh;
+  }
+  .womens-flips-flops-section .sneakers-heading{
+    transform: translateY(-10%);
+  }
+  .womens-flips-flops-section .sneakers-slider{
+    margin-top: -80px;
+    height: 30vh;
+  }
+  .womens-flips-flops-section{
+    height: 70vh;
+  }
+  .instaFeed {
+    /* transform: translateY(-70%); */
+    height: 50vh!important;
+  }
+  .instaFeed .instaHead h1{
+    font-size: 18px!important;
+  }
+  .instaFeed .instapost {
+    padding: 2rem 1rem;
+  }
+  .instaFeed .instapost{
+    height: 50vh;
+  }
+  .instaFeed .instapost .grid-wrapper{
+    --auto-grid-min-size: 8rem;
+  }
+
+  .subscribe-container{
+    /* transform: translateY(-45%); */
+  }
+  
+  .footer-logo-div{
+    padding-top: 34px;
+    position: relative;
+    height: 10vh;
+  }
+  .footerLogo {
+    width: 108px;
+    height: 21px;
+    position: relative;
+    left: -35%;
+    top: 60%;
+    z-index: 21;
+  }
+  .not-for-mobile{
+    display: none!important;
+  }
+  .footer-top{
+    height: 60vh;
+  }
+  .footer-content-wrapper{
+    margin-top: 34px;
+  }
+  .footer-content-wrapper h2{
+    color: #fff;
+    width: 100%;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .footer-content-wrapper a{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .footer-content-wrapper a:hover{
+    color: #fff;
+  }
+  .footer-content-wrapper li{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .footer-left-column {
+    margin-left: 35px;
+    width: 35%;
+  }
+  .footer-right-column{
+    transform: translateY(-10px);
+    width: 50%;
+    padding-left: 0!important;
+    margin-left: 0;
+  }
+  .list-social__item{
+    background-color: none;
+  }
+  .line-footer{
+    border-bottom: 1px solid white;
+    height: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-icon{
+    width: 35px;
+    height: 20px;
+    padding: 2px; 
+  }
+  .footer-payment-icons ul > li {
+    display: inline-block;
+  }
+}
  
 
   @media screen and (min-width: 801px) {

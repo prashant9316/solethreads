@@ -567,25 +567,9 @@
   }
   .abcde .slidercard{
     width: 100%;
-    /* height: 100%; */
-    /* background: purple; */
     
   }
-  /* .extra{
-    width: 65%;
-    height: 100%;
-    background: red;
-  }
-  .extraImage{
-    width: 100%;
-    height: 90%;
-    background: orange;
-  }
-  .extraHead{
-    width: 100%;
-    height: 10%;
-    background: blueviolet;
-  } */
+  
   
   .abcde .slidercard img{
     width: 100%;
@@ -593,71 +577,7 @@
     padding: 0px 5px;
   }
   
-  /* .main-card .cardsss .abcde .slidercard:hover{
-    transform: translateY(-15px);
-  } */
-  /* .cards .card .content{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-  }
-  .cards .card .content .img{
-    height:90%;
-    width: 100%;
-    
-    background: #FF676D;
-    margin-bottom: 14px;
-   
-    padding-top: 0px;
-    margin-top: 0px;
-  }
-  .card .content .img img{
-    height: 100%;
-    width: 100%;
-    border: 3px solid #ffff;
-    border-radius: 0%;
-    object-fit: cover;
-  }
-  .card .content .details{
-    width: 100%;
-    height: 10%;
-  }
-  .card .content .name{
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .card .content .job{
-    font-size: 20px;
-    color: #FF676D;
-  }
-  .card .content .media-icons{
-    margin-top: 10px;
-    display: flex;
-  
-  }
-  .media-icons a{
-    text-align: center;
-    line-height: 33px;
-    height: 35px;
-    width: 35px;
-    margin: 0 4px;
-    font-size: 14px;
-    color: #FFF;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    background: #FF676D;
-    transition: all 0.3s ease;
-  }
-  .media-icons a:hover{
-    color: #FF676D;
-    background-color: #fff;
-    border-color: #FF676D;
-  } */
+ 
    .container .button{
     width: 76%;
     display: flex;
@@ -683,21 +603,7 @@
     cursor: pointer;
     transition: all 0.5s ease;
   }
-  /* .button label.active{
-    width: 35px;
-  }
-  #one:checked ~ .button .one{
-    width: 35px;
-  }
-  #one:checked ~ .button .two{
-    width: 15px;
-  }
-  #two:checked ~ .button .one{
-    width: 15px;
-  }
-  #two:checked ~ .button .two{
-    width: 35px;
-  } */
+  
   input[type="radio"]{
     display: none;
   }
@@ -1716,13 +1622,21 @@
   border-radius: 2px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
   .not-for-desktop{
     display: none!important;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .halo-productView-right{
+    margin-top: -25px!important; ;
+    width: 100%!important;
+    padding-top: 0px!important;
+  }
+  .offer-collapse {
+    width: 80%!important;
+  }
   .main{
     top: 100px!important;
   }
@@ -1750,18 +1664,27 @@
     width: 40%;
     margin: 0;
   }
+  .page-header-mobile{
+    margin-left: 22px;
+  }
+
   .mobile-money-price{
     font-size: 11px;
     font-weight: 700;
     color: #4A4A4A!important;
   }
+  .mobile-money-price{
+    font-size: 15px;
+  }
   .mobile-price-card{
     width: 40%;
     float: right;
     padding: 0;
+    margin-right: 0px!important;
     margin: 0;
     position: block;
-    transform: translateY(-3vh);
+    transform: translateY(-3.2vh);
+    /* transform: translateX(3vw); */
   }
   .productView {
     margin: auto;
