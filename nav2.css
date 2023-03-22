@@ -1644,6 +1644,10 @@
     margin-top: 50px;
   }
 }
+.swiper-pagination-bullet {
+  width: 10px!important;
+  height: 10px!important;
+}
 
 @media screen and (max-width: 800px) {
   

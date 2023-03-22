@@ -2,6 +2,11 @@
   font-family: 'Retail Display Demo';
   src: url("./RetailDisplayDemo-Regular.otf");
 }
+
+@font-face {
+  font-family: 'Retail Display Demo Bold';
+  src: url("./RetailDisplayDemo-Bold.otf");
+}
 *{
     margin:0;
     padding:0;
@@ -19,6 +24,7 @@
     
     .sneakers-heading {
       height: 20vh;
+      font-family: 'Retail Display Bold' !important;
     }
     .women {
       /* height: 60vh; */
@@ -453,7 +459,7 @@
     line-height: 22px;
     color: #02405F;
     justify-content: center;
-    font-family: 'Retail Display Demo';
+    font-family: 'Retail Display Demo Bold';
 }
 
 
@@ -471,6 +477,9 @@
     padding-top: 60px;
   }
   .text-behind{
+    font-family: 'Retail Display Bold'!important;
+    font-weight: 700;
+    font-style: bold;
     /* background: red; */
     position: absolute;
     width: 100%;
@@ -581,7 +590,7 @@
     margin-bottom: 10px;
   }
   .cardsss .abcde .slidercard .photo > h2 {
-    font-family: 'Retail Display Demo';
+    font-family: 'Retail Display Demo Bold';
   }
   /* .extra{
     width: 65%;
@@ -624,7 +633,7 @@
     font-size: 20px;
     margin-top: 15px!important;
     height: 38px;
-    font-family: 'Retail Display Demo'!important;
+    font-family: 'Retail Display Demo Bold'!important;
   }
 
   
@@ -750,6 +759,8 @@
   .sneakers-heading{
     width:100%;
     height: 30%;
+    font-weight: 1000;
+    font-style: bold;
     /* margin-bottom: -5%; */
     /* background: white; */
     display: flex;
@@ -765,10 +776,7 @@
   
   
   .sneakers-heading h1{
-  
-  
-  
-  font-family: 'Retail Display Demo'!important;
+  font-family: 'Retail Display Demo Bold'!important;
   font-weight: 700;
   font-size: 50px;
   line-height: 65px;
@@ -912,12 +920,14 @@
     width: 33vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+    font-family: 'Retail Display Demo Bold';
   }
   .btn-shop-single{
     width: 18vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     font-size: 21px;
+    font-family: 'Retail Display Demo Bold';
   }
   
   .btn-shop-now {
@@ -926,6 +936,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     font-weight: lighter!important;
+    font-family: 'Retail Display Demo Bold';
   }
 
   @media screen and (max-width: 1024) {
@@ -1130,10 +1141,17 @@
     font-size: 27px;
     color: white;
   }
+  .subscribe-form__btn{
+    font-family: 'Retail Display Demo'!important;
+  }
+  .subscribe-title__title{
+    font-family: 'Retail Display Demo Bold';
+  }
   .subscribe-form__btn:hover {
     background-color: #fff!important;
     color: #000;
   }
+  
   
   /* instagram API */
   .instaFeed{
@@ -2133,7 +2151,7 @@
 
 
   .take-it-up-1{
-    transform: translateY(-10%);
+    transform: translateY(-25%);
   }
 
   .take-it-up-2{
@@ -2270,13 +2288,25 @@
     width: 35%;
   }
   .footer-right-column{
-    transform: translateY(-10px);
     width: 50%;
     padding-left: 0!important;
     margin-left: 0;
   }
-  .list-social__item{
-    background-color: none;
+  .list-social .list-social__link{
+    background-color: none!important;
+    border: none!important;
+  }
+  .social-icon-list-instagram{
+    background: url('https://api.iconify.design/ph/instagram-logo.svg?color=white&width=32&height=32') no-repeat center center / contain;
+    content: url('https://api.iconify.design/ph/instagram-logo.svg?color=white&width=32&height=32');
+  }
+  .social-icon-list-facebook{
+    background: url('https://api.iconify.design/ic/twotone-facebook.svg?color=white&width=32&height=32') no-repeat center center / contain;
+    content: url('https://api.iconify.design/ic/twotone-facebook.svg?color=white&width=32&height=32');
+  }
+  .social-icon-list-youtube{
+    background: url('https://api.iconify.design/ph/youtube-logo-light.svg?color=white&width=32&height=32') no-repeat center center / contain;
+    content: url('https://api.iconify.design/ph/youtube-logo-light.svg?color=white&width=32&height=32');
   }
   .line-footer{
     border-bottom: 1px solid white;
@@ -2289,6 +2319,9 @@
     height: 20px;
     padding: 2px; 
   }
+  .footer-payment-icons{
+    transform: translateY(-10px);
+  }
   .footer-payment-icons ul > li {
     display: inline-block;
   }
@@ -2296,8 +2329,13 @@
  
 
   @media screen and (min-width: 801px) {
-    
-    
+    .list-social__item{}
+    .halo-row-item{
+      text-align: left;
+    }
+    .footer-block-newsletter{
+      align-items
+    }
   }
 
   .footer-col {
@@ -2345,4 +2383,14 @@
     .footer-col { 
       border: none;
     }
+  }
+  .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+    display: none;
+  }
+  .slick-next::after {
+    display: none;
+  }
+
+  .btn-shop-single:hover{
+    color: white;
   }
