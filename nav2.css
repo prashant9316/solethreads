@@ -1775,3 +1775,43 @@
 .swiper-pagination-bullet-active{
   background: #8B8B8B!important;
 }
+
+.outer-box{
+  background-color: red;
+  height: 38px;
+  width: 50px;
+  background: #343B37;
+  border-radius: 5px;
+  position:relative;
+}
+
+.outer-gray{
+  background: #343B37!important;
+}
+
+.outer-black{
+  background: #000!important;
+}
+
+
+.inner-box{
+  width: 0px;
+    height:0px;
+    border-bottom: 18px solid green;
+    border-left: 37px solid transparent;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    
+    position: absolute;
+    color: white;
+}
+.inner-cream{
+  border-bottom-color: #D0C2B5;
+  border-left-color: #D0C2B5;
+}
+
+.inner-brown{
+  border-bottom-color: #573A2C;
+  border-left-color: #573A2C;
+}
