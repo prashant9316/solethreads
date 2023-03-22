@@ -19,8 +19,14 @@
       display: none!important;
     }
 
-    
+    .product-highlights{
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
 
+    .wrap-collabsible{
+      margin-bottom: 30px;
+    }
     
     .sneakers-heading {
       height: 20vh;
@@ -2394,3 +2400,5 @@
   .btn-shop-single:hover{
     color: white;
   }
+
+  
